@@ -45,8 +45,8 @@ import os
 
 # In[115]:
 
-
-ds_folder = 'C:/Users/jingxian.he/OneDrive - Deutsche Glasfaser Holding GmbH/self_learning/DI/hikemate/datasets/test_samples'
+# please replace test_samples_folder to your folder
+ds_folder = 'test_samples_folder'
 
 
 # load csvs
