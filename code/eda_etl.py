@@ -17,11 +17,11 @@ import os
 # 2. komoot (N)
 # I would first NOT use it, however,
 # the columns ['Highest point', 'Lowest point'] may be necessary to have. 
-# I would try to scrap the two columns from other website, e.g. wanderweg
+# how about scraping the two columns from other website, e.g. wanderweg?
 
 # 3. sac-cas (N)
-# the samples only contain information about the mountain huts
-# I would use this link to scrape samples: https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/
+# the samples only contain information about the mountain huts.
+# scraping this link: https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/
 # however, I think it should be fine that we don't use it. It provides similar info as AllTrails
 
 # 4. schweizmobil (Y, maybe for further step)
