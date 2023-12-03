@@ -1,0 +1,83 @@
+[
+  {
+    "id": 20,
+    "count": 78,
+    "description": "",
+    "link": "https://wegwandern.ch/aktivitat/schneeschuh/",
+    "name": "Schneeschuh",
+    "slug": "schneeschuh",
+    "taxonomy": "aktivitat",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/aktivitat/20" }],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/aktivitat" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/aktivitat" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?aktivitat=20" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "count": 513,
+    "description": "",
+    "link": "https://wegwandern.ch/aktivitat/wandern/",
+    "name": "Wandern",
+    "slug": "wandern",
+    "taxonomy": "aktivitat",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/aktivitat/18" }],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/aktivitat" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/aktivitat" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?aktivitat=18" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "count": 113,
+    "description": "",
+    "link": "https://wegwandern.ch/aktivitat/winterwandern/",
+    "name": "Winterwandern",
+    "slug": "winterwandern",
+    "taxonomy": "aktivitat",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/aktivitat/19" }],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/aktivitat" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/aktivitat" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?aktivitat=19" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

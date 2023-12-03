@@ -1,0 +1,312 @@
+[
+  {
+    "id": 28,
+    "count": 160,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/t1/",
+    "name": "T1",
+    "slug": "t1",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/28" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=28"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "count": 280,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/t2/",
+    "name": "T2",
+    "slug": "t2",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/29" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=29"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "count": 59,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/t3/",
+    "name": "T3",
+    "slug": "t3",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/30" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=30"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "count": 14,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/t4/",
+    "name": "T4",
+    "slug": "t4",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/31" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=31"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/t5/",
+    "name": "T5",
+    "slug": "t5",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/32" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=32"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "count": 0,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/t6/",
+    "name": "T6",
+    "slug": "t6",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/33" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=33"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "count": 20,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/wt1/",
+    "name": "WT1",
+    "slug": "wt1",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/34" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=34"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "count": 50,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/wt2/",
+    "name": "WT2",
+    "slug": "wt2",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/35" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=35"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/wt3/",
+    "name": "WT3",
+    "slug": "wt3",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/36" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=36"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "count": 0,
+    "description": "",
+    "link": "https://wegwandern.ch/anforderung/wt4/",
+    "name": "WT4",
+    "slug": "wt4",
+    "taxonomy": "anforderung",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung/37" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/anforderung" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/anforderung" }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?anforderung=37"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

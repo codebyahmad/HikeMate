@@ -1,0 +1,3800 @@
+[
+  {
+    "id": 1753,
+    "count": 9,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/aargau/",
+    "name": "Aargau",
+    "slug": "aargau",
+    "taxonomy": "wanderregionen",
+    "parent": 530,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1753" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/530"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1753"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1753"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1764,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/adelboden/",
+    "name": "Adelboden",
+    "slug": "adelboden",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1764" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1764"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1764"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1820,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/albula/",
+    "name": "Albula",
+    "slug": "albula",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1820" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1820"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1820"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1776,
+    "count": 10,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/aletsch/",
+    "name": "Aletsch",
+    "slug": "aletsch",
+    "taxonomy": "wanderregionen",
+    "parent": 25,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1776" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1776"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1776"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "count": 24,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/appenzell/",
+    "name": "Appenzell",
+    "slug": "appenzell",
+    "taxonomy": "wanderregionen",
+    "parent": 23,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/78" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=78"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=78"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1762,
+    "count": 14,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/arosa/",
+    "name": "Arosa",
+    "slug": "arosa",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1762" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1762"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1762"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "count": 9,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/ascona-locarno/",
+    "name": "Ascona /\u00a0Locarno",
+    "slug": "ascona-locarno",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/83" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=83"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=83"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1779,
+    "count": 3,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/basel/",
+    "name": "Basel",
+    "slug": "basel",
+    "taxonomy": "wanderregionen",
+    "parent": 530,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1779" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/530"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1779"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1779"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1801,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/bedrettotal/",
+    "name": "Bedrettotal",
+    "slug": "bedrettotal",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1801" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1801"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1801"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1808,
+    "count": 2,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/bellinzona/",
+    "name": "Bellinzona",
+    "slug": "bellinzona",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1808" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1808"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1808"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/bergell/",
+    "name": "Bergell",
+    "slug": "bergell",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/68" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=68"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=68"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "count": 2,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/bern/",
+    "name": "Bern",
+    "slug": "bern",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=21"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=21"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1748,
+    "count": 3,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/berner-oberland/",
+    "name": "Berner Oberland",
+    "slug": "berner-oberland",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1748" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1748"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1748"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1818,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/bielersee/",
+    "name": "Bielersee",
+    "slug": "bielersee",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1818" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1818"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1818"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1798,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/bleniotal/",
+    "name": "Bleniotal",
+    "slug": "bleniotal",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1798" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1798"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1798"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1741,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/bodensee/",
+    "name": "Bodensee",
+    "slug": "bodensee",
+    "taxonomy": "wanderregionen",
+    "parent": 23,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1741" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1741"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1741"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1819,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/brienzersee/",
+    "name": "Brienzersee",
+    "slug": "brienzersee",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1819" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1819"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1819"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1815,
+    "count": 2,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/capriasca/",
+    "name": "Capriasca",
+    "slug": "capriasca",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1815" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1815"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1815"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/centovalli/",
+    "name": "Centovalli",
+    "slug": "centovalli",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/82" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=82"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=82"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1763,
+    "count": 12,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/davos/",
+    "name": "Davos",
+    "slug": "davos",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1763" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1763"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1763"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/emmental/",
+    "name": "Emmental",
+    "slug": "emmental",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1823" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1823"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1823"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1789,
+    "count": 7,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/engelberg/",
+    "name": "Engelberg",
+    "slug": "engelberg",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1789" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1789"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1789"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "count": 12,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/entlebuch/",
+    "name": "Entlebuch",
+    "slug": "entlebuch",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/85" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=85"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=85"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1781,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/flims-laax-falera/",
+    "name": "Flims Laax Falera",
+    "slug": "flims-laax-falera",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1781" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1781"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1781"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1784,
+    "count": 9,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/fribourg/",
+    "name": "Fribourg",
+    "slug": "fribourg",
+    "taxonomy": "wanderregionen",
+    "parent": 169,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1784" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/169"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1784"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1784"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1782,
+    "count": 29,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/glarnerland/",
+    "name": "Glarnerland",
+    "slug": "glarnerland",
+    "taxonomy": "wanderregionen",
+    "parent": 23,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1782" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1782"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1782"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1756,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/goms/",
+    "name": "Goms",
+    "slug": "goms",
+    "taxonomy": "wanderregionen",
+    "parent": 25,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1756" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1756"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1756"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "count": 10,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/graubuenden/",
+    "name": "Graub\u00fcnden",
+    "slug": "graubuenden",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=22"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=22"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1747,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/grindelwald/",
+    "name": "Grindelwald",
+    "slug": "grindelwald",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1747" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1747"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1747"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1824,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/gstaad-saanenland/",
+    "name": "Gstaad / Saanenland",
+    "slug": "gstaad-saanenland",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1824" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1824"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1824"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1752,
+    "count": 20,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/haslital/",
+    "name": "Haslital",
+    "slug": "haslital",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1752" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1752"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1752"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1750,
+    "count": 10,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/jungfrauregion/",
+    "name": "Jungfrauregion",
+    "slug": "jungfrauregion",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1750" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1750"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1750"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1754,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/jura-drei-seen-land/",
+    "name": "Jura &amp; Drei-Seen-Land",
+    "slug": "jura-drei-seen-land",
+    "taxonomy": "wanderregionen",
+    "parent": 259,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1754" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/259"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1754"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1754"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1783,
+    "count": 13,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/kandertal/",
+    "name": "Kandertal",
+    "slug": "kandertal",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1783" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1783"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1783"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1777,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/kiental/",
+    "name": "Kiental",
+    "slug": "kiental",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1777" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1777"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1777"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1761,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/knonauer-amt-saeuliamt/",
+    "name": "Knonauer Amt (S\u00e4uliamt)",
+    "slug": "knonauer-amt-saeuliamt",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1761" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1761"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1761"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1800,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/lauterbrunnental/",
+    "name": "Lauterbrunnental",
+    "slug": "lauterbrunnental",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1800" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1800"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1800"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1799,
+    "count": 9,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/leventina/",
+    "name": "Leventina",
+    "slug": "leventina",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1799" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1799"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1799"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 277,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/liechtenstein/",
+    "name": "Liechtenstein",
+    "slug": "liechtenstein",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/277" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=277"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=277"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1757,
+    "count": 11,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/loetschental/",
+    "name": "L\u00f6tschental",
+    "slug": "loetschental",
+    "taxonomy": "wanderregionen",
+    "parent": 25,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1757" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1757"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1757"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1766,
+    "count": 12,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/lugano/",
+    "name": "Lugano",
+    "slug": "lugano",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1766" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1766"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1766"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/maggiatal/",
+    "name": "Maggiatal",
+    "slug": "maggiatal",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/81" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=81"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=81"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1775,
+    "count": 15,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/mattertal/",
+    "name": "Mattertal",
+    "slug": "mattertal",
+    "taxonomy": "wanderregionen",
+    "parent": 25,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1775" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1775"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1775"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 259,
+    "count": 3,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/mittelland/",
+    "name": "Mittelland",
+    "slug": "mittelland",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/259" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=259"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=259"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1787,
+    "count": 10,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/mythenregion/",
+    "name": "Mythenregion",
+    "slug": "mythenregion",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1787" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1787"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1787"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "count": 10,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/nationalpark/",
+    "name": "Nationalpark",
+    "slug": "nationalpark",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/73" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=73"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=73"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1785,
+    "count": 3,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/neuenburg/",
+    "name": "Neuenburg",
+    "slug": "neuenburg",
+    "taxonomy": "wanderregionen",
+    "parent": 169,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1785" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/169"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1785"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1785"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1768,
+    "count": 9,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/nidwalden/",
+    "name": "Nidwalden",
+    "slug": "nidwalden",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1768" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1768"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1768"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 530,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/nordwestschweiz/",
+    "name": "Nordwest",
+    "slug": "nordwestschweiz",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/530" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=530"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=530"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "count": 28,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/oberengadin/",
+    "name": "Oberengadin",
+    "slug": "oberengadin",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/70" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=70"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=70"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1769,
+    "count": 18,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/obwalden/",
+    "name": "Obwalden",
+    "slug": "obwalden",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1769" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1769"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1769"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/onsernonetal/",
+    "name": "Onsernonetal",
+    "slug": "onsernonetal",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/80" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=80"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=80"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "count": 10,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/ostschweiz/",
+    "name": "Ostschweiz",
+    "slug": "ostschweiz",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=23"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=23"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "count": 15,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/prattigau/",
+    "name": "Pr\u00e4ttigau",
+    "slug": "prattigau",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/71" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=71"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=71"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/puschlav/",
+    "name": "Puschlav",
+    "slug": "puschlav",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/72" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=72"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=72"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1755,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/rheintal/",
+    "name": "Rheintal",
+    "slug": "rheintal",
+    "taxonomy": "wanderregionen",
+    "parent": 23,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1755" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1755"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1755"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1796,
+    "count": 11,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/rheinwald-viamala/",
+    "name": "Rheinwald/Viamala",
+    "slug": "rheinwald-viamala",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1796" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1796"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1796"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1805,
+    "count": 15,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/rhonetal/",
+    "name": "Rhonetal",
+    "slug": "rhonetal",
+    "taxonomy": "wanderregionen",
+    "parent": 25,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1805" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1805"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1805"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/rigi/",
+    "name": "Rigi",
+    "slug": "rigi",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/84" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=84"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=84"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1774,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/saastal/",
+    "name": "Saastal",
+    "slug": "saastal",
+    "taxonomy": "wanderregionen",
+    "parent": 25,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1774" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1774"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1774"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1802,
+    "count": 19,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/sarganserland/",
+    "name": "Sarganserland",
+    "slug": "sarganserland",
+    "taxonomy": "wanderregionen",
+    "parent": 23,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1802" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1802"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1802"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1771,
+    "count": 40,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/schwyz/",
+    "name": "Schwyz",
+    "slug": "schwyz",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1771" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1771"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1771"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1780,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/scuol/",
+    "name": "Scuol",
+    "slug": "scuol",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1780" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1780"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1780"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1812,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/sihltal/",
+    "name": "Sihltal",
+    "slug": "sihltal",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1812" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1812"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1812"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1749,
+    "count": 19,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/simmental/",
+    "name": "Simmental",
+    "slug": "simmental",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1749" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1749"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1749"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1816,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/solothurn/",
+    "name": "Solothurn",
+    "slug": "solothurn",
+    "taxonomy": "wanderregionen",
+    "parent": 530,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1816" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/530"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1816"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1816"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "count": 14,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/stadt-zurich/",
+    "name": "Stadt Z\u00fcrich",
+    "slug": "stadt-zurich",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/88" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=88"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=88"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "count": 14,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/surselva/",
+    "name": "Surselva",
+    "slug": "surselva",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/74" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=74"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=74"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "count": 10,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/surses/",
+    "name": "Surses",
+    "slug": "surses",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/69" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=69"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=69"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "count": 12,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/tessin/",
+    "name": "Tessin",
+    "slug": "tessin",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=24"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=24"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1809,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/thunersee/",
+    "name": "Thunersee",
+    "slug": "thunersee",
+    "taxonomy": "wanderregionen",
+    "parent": 21,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1809" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/21"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1809"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1809"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "count": 13,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/thurgau/",
+    "name": "Thurgau",
+    "slug": "thurgau",
+    "taxonomy": "wanderregionen",
+    "parent": 23,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/77" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=77"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=77"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1740,
+    "count": 18,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/toggenburg/",
+    "name": "Toggenburg",
+    "slug": "toggenburg",
+    "taxonomy": "wanderregionen",
+    "parent": 23,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1740" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/23"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1740"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1740"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1760,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/toesstal/",
+    "name": "T\u00f6sstal",
+    "slug": "toesstal",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1760" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1760"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1760"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "count": 14,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/unterengadin/",
+    "name": "Unterengadin",
+    "slug": "unterengadin",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/75" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=75"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=75"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1788,
+    "count": 37,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/urnerland/",
+    "name": "Urnerland",
+    "slug": "urnerland",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1788" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1788"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1788"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/val-mustair/",
+    "name": "Val M\u00fcstair",
+    "slug": "val-mustair",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/76" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=76"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=76"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1814,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/vazobervaz/",
+    "name": "Vaz/Obervaz",
+    "slug": "vazobervaz",
+    "taxonomy": "wanderregionen",
+    "parent": 22,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1814" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/22"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1814"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1814"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "count": 6,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/verzascatal/",
+    "name": "Verzascatal",
+    "slug": "verzascatal",
+    "taxonomy": "wanderregionen",
+    "parent": 24,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/79" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/24"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=79"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=79"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1759,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/vierwaldstaettersee/",
+    "name": "Vierwaldst\u00e4ttersee",
+    "slug": "vierwaldstaettersee",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1759" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1759"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1759"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1778,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/waadt/",
+    "name": "Waadt",
+    "slug": "waadt",
+    "taxonomy": "wanderregionen",
+    "parent": 169,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1778" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/169"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1778"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1778"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "count": 9,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/wallis/",
+    "name": "Wallis",
+    "slug": "wallis",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=25"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=25"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "count": 5,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/westschweiz/",
+    "name": "Westschweiz",
+    "slug": "westschweiz",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/169" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=169"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=169"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1825,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/winterthur/",
+    "name": "Winterthur",
+    "slug": "winterthur",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1825" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1825"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1825"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "count": 0,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zentralschweiz/",
+    "name": "Zentralschweiz",
+    "slug": "zentralschweiz",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=26"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=26"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1743,
+    "count": 12,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zermatt/",
+    "name": "Zermatt",
+    "slug": "zermatt",
+    "taxonomy": "wanderregionen",
+    "parent": 25,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1743" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/25"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1743"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1743"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1813,
+    "count": 3,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zimmerberg/",
+    "name": "Zimmerberg",
+    "slug": "zimmerberg",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1813" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1813"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1813"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1791,
+    "count": 9,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zugerland/",
+    "name": "Zugerland",
+    "slug": "zugerland",
+    "taxonomy": "wanderregionen",
+    "parent": 26,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1791" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1791"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1791"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "count": 17,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zuercher-oberland/",
+    "name": "Z\u00fcrcher Oberland",
+    "slug": "zuercher-oberland",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/87" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=87"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=87"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1742,
+    "count": 12,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zuercher-unterland/",
+    "name": "Z\u00fcrcher Unterland",
+    "slug": "zuercher-unterland",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/1742" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=1742"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=1742"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zuerich/",
+    "name": "Z\u00fcrich",
+    "slug": "zuerich",
+    "taxonomy": "wanderregionen",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=27"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=27"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "count": 14,
+    "description": "",
+    "link": "https://wegwandern.ch/wanderregionen/zuerichsee/",
+    "name": "Z\u00fcrichsee",
+    "slug": "zuerichsee",
+    "taxonomy": "wanderregionen",
+    "parent": 27,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/86" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wanderregionen"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderregionen/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wanderregionen=86"
+        },
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/b2b-werbung?wanderregionen=86"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

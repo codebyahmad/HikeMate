@@ -1,0 +1,68 @@
+[
+  {
+    "id": 506,
+    "count": 443,
+    "description": "",
+    "link": "https://wegwandern.ch/routenverlauf/a-nach-b-tour/",
+    "name": "A nach B Tour",
+    "slug": "a-nach-b-tour",
+    "taxonomy": "routenverlauf",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/routenverlauf/506" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/routenverlauf" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/routenverlauf"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?routenverlauf=506"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "count": 261,
+    "description": "",
+    "link": "https://wegwandern.ch/routenverlauf/rundtour/",
+    "name": "Rundtour",
+    "slug": "rundtour",
+    "taxonomy": "routenverlauf",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/routenverlauf/49" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/routenverlauf" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/routenverlauf"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?routenverlauf=49"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

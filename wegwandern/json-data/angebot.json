@@ -1,0 +1,177 @@
+[
+  {
+    "id": 476,
+    "count": 132,
+    "description": "",
+    "link": "https://wegwandern.ch/angebot/sac-huetten/",
+    "name": "(SAC-)H\u00fctten",
+    "slug": "sac-huetten",
+    "taxonomy": "angebot",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot/476" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/angebot" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?angebot=476" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 485,
+    "count": 233,
+    "description": "",
+    "link": "https://wegwandern.ch/angebot/alpbeizli/",
+    "name": "Alp-Beizli",
+    "slug": "alpbeizli",
+    "taxonomy": "angebot",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot/485" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/angebot" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?angebot=485" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 489,
+    "count": 68,
+    "description": "",
+    "link": "https://wegwandern.ch/angebot/alp-bnb/",
+    "name": "Alp-BnB",
+    "slug": "alp-bnb",
+    "taxonomy": "angebot",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot/489" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/angebot" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?angebot=489" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 487,
+    "count": 175,
+    "description": "",
+    "link": "https://wegwandern.ch/angebot/feuerstelle/",
+    "name": "Feuerstelle",
+    "slug": "feuerstelle",
+    "taxonomy": "angebot",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot/487" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/angebot" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?angebot=487" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1793,
+    "count": 62,
+    "description": "",
+    "link": "https://wegwandern.ch/angebot/hofladen/",
+    "name": "Hofladen",
+    "slug": "hofladen",
+    "taxonomy": "angebot",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot/1793" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/angebot" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?angebot=1793" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 480,
+    "count": 599,
+    "description": "",
+    "link": "https://wegwandern.ch/angebot/unterkunft/",
+    "name": "Unterkunft",
+    "slug": "unterkunft",
+    "taxonomy": "angebot",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot/480" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/angebot" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?angebot=480" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 481,
+    "count": 681,
+    "description": "",
+    "link": "https://wegwandern.ch/angebot/verpflegung/",
+    "name": "Verpflegung",
+    "slug": "verpflegung",
+    "taxonomy": "angebot",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot/481" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/angebot" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/angebot" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?angebot=481" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1878,
+    "count": 18,
+    "description": "",
+    "link": "https://wegwandern.ch/category/historische-berghotels/",
+    "name": "Historische Berghotels",
+    "slug": "historische-berghotels",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1878" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1878" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1868,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/category/historisches/",
+    "name": "Historisches",
+    "slug": "historisches",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1868" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1868" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1861,
+    "count": 8,
+    "description": "",
+    "link": "https://wegwandern.ch/category/natur/",
+    "name": "Natur",
+    "slug": "natur",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1861" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1861" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1873,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/category/paid-post/",
+    "name": "Paid Post",
+    "slug": "paid-post",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1873" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1873" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1872,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/category/regionen/",
+    "name": "Regionen",
+    "slug": "regionen",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1872" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1872" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1874,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/category/reportagen/",
+    "name": "Reportagen",
+    "slug": "reportagen",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1874" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1874" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1860,
+    "count": 4,
+    "description": "",
+    "link": "https://wegwandern.ch/category/safety/",
+    "name": "Safety",
+    "slug": "safety",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1860" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1860" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1865,
+    "count": 17,
+    "description": "",
+    "link": "https://wegwandern.ch/category/tipps/",
+    "name": "Tipps",
+    "slug": "tipps",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1865" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1865" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1900,
+    "count": 1,
+    "description": "",
+    "link": "https://wegwandern.ch/category/ueber-uns/",
+    "name": "\u00dcber uns",
+    "slug": "ueber-uns",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1900" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1900" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 0,
+    "description": "",
+    "link": "https://wegwandern.ch/category/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/categories/1" }],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/posts?categories=1" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

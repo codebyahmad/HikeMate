@@ -1,0 +1,398 @@
+[
+  {
+    "id": 5,
+    "count": 158,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/apr/",
+    "name": "Apr",
+    "slug": "apr",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/5" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=5"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "count": 513,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/aug/",
+    "name": "Aug",
+    "slug": "aug",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/9" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=9"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "count": 226,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/dez/",
+    "name": "Dez",
+    "slug": "dez",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/13" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=13"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "count": 226,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/feb/",
+    "name": "Feb",
+    "slug": "feb",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/3" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=3"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "count": 226,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/jan/",
+    "name": "Jan",
+    "slug": "jan",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/2" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=2"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "count": 513,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/jul/",
+    "name": "Jul",
+    "slug": "jul",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/8" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=8"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "count": 384,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/jun/",
+    "name": "Jun",
+    "slug": "jun",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/7" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=7"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "count": 221,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/mai/",
+    "name": "Mai",
+    "slug": "mai",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/6" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=6"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "count": 309,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/mar/",
+    "name": "Mar",
+    "slug": "mar",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/4" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=4"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "count": 120,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/nov/",
+    "name": "Nov",
+    "slug": "nov",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/12" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=12"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "count": 457,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/okt/",
+    "name": "Okt",
+    "slug": "okt",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/11" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=11"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "count": 513,
+    "description": "",
+    "link": "https://wegwandern.ch/wander-saison/sep/",
+    "name": "Sep",
+    "slug": "sep",
+    "taxonomy": "wander-saison",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison/10" }
+      ],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wander-saison" }
+      ],
+      "about": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/wander-saison"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?wander-saison=10"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1851,
+    "count": 66,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/bergsee/",
+    "name": "Bergsee",
+    "slug": "bergsee",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1851" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1851" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "count": 300,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/familie/",
+    "name": "Familie",
+    "slug": "familie",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/52" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=52" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "count": 37,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/flachwandern/",
+    "name": "Flachwandern",
+    "slug": "flachwandern",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/60" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=60" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "count": 86,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/fluss/",
+    "name": "Fluss",
+    "slug": "fluss",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/53" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=53" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "count": 130,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/gipfel/",
+    "name": "Gipfel",
+    "slug": "gipfel",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/51" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=51" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1797,
+    "count": 34,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/gletscher/",
+    "name": "Gletscher",
+    "slug": "gletscher",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1797" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1797" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1790,
+    "count": 52,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/gratweg/",
+    "name": "Gratweg",
+    "slug": "gratweg",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1790" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1790" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 512,
+    "count": 165,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/hoehenweg/",
+    "name": "H\u00f6henweg",
+    "slug": "hoehenweg",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/512" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=512" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1794,
+    "count": 108,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/mehrtagestour/",
+    "name": "Mehrtagestour",
+    "slug": "mehrtagestour",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1794" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1794" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1806,
+    "count": 43,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/naturwunder/",
+    "name": "Naturwunder",
+    "slug": "naturwunder",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1806" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1806" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "count": 398,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/panorama/",
+    "name": "Panorama",
+    "slug": "panorama",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/56" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=56" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "count": 103,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/pass/",
+    "name": "Pass",
+    "slug": "pass",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/54" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=54" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1795,
+    "count": 44,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/schiff/",
+    "name": "Schiff",
+    "slug": "schiff",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1795" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1795" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "count": 59,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/schlitteln/",
+    "name": "Schlitteln",
+    "slug": "schlitteln",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/59" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=59" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1792,
+    "count": 39,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/schlucht/",
+    "name": "Schlucht",
+    "slug": "schlucht",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1792" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1792" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "count": 151,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/see/",
+    "name": "See",
+    "slug": "see",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/57" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=57" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1913,
+    "count": 37,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/tal/",
+    "name": "Tal",
+    "slug": "tal",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1913" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1913" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "count": 90,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/themenweg/",
+    "name": "Themenweg",
+    "slug": "themenweg",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/58" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=58" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1840,
+    "count": 132,
+    "description": "",
+    "link": "https://wegwandern.ch/thema/top-touren/",
+    "name": "Top-Touren",
+    "slug": "top-touren",
+    "taxonomy": "thema",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema/1840" }],
+      "collection": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/thema" }],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/thema" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?thema=1840" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

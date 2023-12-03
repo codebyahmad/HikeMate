@@ -1,0 +1,83 @@
+[
+  {
+    "id": 42,
+    "count": 199,
+    "description": "",
+    "link": "https://wegwandern.ch/ausdauer/hoch/",
+    "name": "Hoch",
+    "slug": "hoch",
+    "taxonomy": "ausdauer",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/ausdauer/42" }],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/ausdauer" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/ausdauer" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?ausdauer=42" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "count": 203,
+    "description": "",
+    "link": "https://wegwandern.ch/ausdauer/leicht/",
+    "name": "Leicht",
+    "slug": "leicht",
+    "taxonomy": "ausdauer",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/ausdauer/40" }],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/ausdauer" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/ausdauer" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?ausdauer=40" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "count": 302,
+    "description": "",
+    "link": "https://wegwandern.ch/ausdauer/mittel/",
+    "name": "Mittel",
+    "slug": "mittel",
+    "taxonomy": "ausdauer",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [{ "href": "https://wegwandern.ch/wp-json/wp/v2/ausdauer/41" }],
+      "collection": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/ausdauer" }
+      ],
+      "about": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/taxonomies/ausdauer" }
+      ],
+      "wp:post_type": [
+        { "href": "https://wegwandern.ch/wp-json/wp/v2/wanderung?ausdauer=41" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]
