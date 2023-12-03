@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+local_settings.py
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Log files
+*.log
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# IDE files
+.vscode/
+*.pycharm
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore all migrations
+**/migrations/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore test database
+*.db
+
+# Ignore .pyc files in the Django app
+myapp/__pycache__/
+myapp/*.pyc
