@@ -46,8 +46,9 @@ import os
 # In[115]:
 
 # please replace test_samples_folder to your folder
-ds_folder = 'test_samples_folder'
+#ds_folder = 'test_samples_folder'
 
+ds_folder = '../datasets/test_samples'
 
 # load csvs
 
@@ -62,3 +63,6 @@ for file in df_list:
 for key in ds_dict.keys():
     display(key, ds_dict[key].columns, ds_dict[key].head())
 
+
+
+# %%
