@@ -22,13 +22,13 @@ G_ENABLED_IDPS_value = "google"
 g_state_value = '{"i_p":1701126935130,"i_l":1}'
 at_redirected_lang_amt_value = "1"
 at_former_lang_code_pre_redirect_value = "en"
-amp_6ad463_value = "b74b4722-1132-4f03-b09c-b51adc45ac42.........."
+amp_6ad463_value = "a5014531-e6f8-44b5-a8b0-f541135873e1.........."
 at_osano_value = "{%22consent%22:{%22ESSENTIAL%22:%22ACCEPT%22%2C%22STORAGE%22:%22DENY%22%2C%22MARKETING%22:%22DENY%22%2C%22PERSONALIZATION%22:%22DENY%22%2C%22ANALYTICS%22:%22DENY%22%2C%22OPT_OUT%22:%22ACCEPT%22}}"
 at_redirected_lang_msg_shown_value = "true"
 return_to_value = "https%3A%2F%2Fwww.alltrails.com%2F"
 _auth_token_value = "xZwXw5swhmFk_mrJVY7K"
-datadome_value = "aNKnFrUBLHtFTZMF0EhAoK_GP4oqci56bP0gRe2sFieidnMZwhqL3fmz0VWVbyr9u2iUuU6JlivZIU66uxavlFw3b1KNM4mXPOjYMHLsynkWJRryLV7ptWambEpHGwPx"
-_alltrails_session_value = "Y0lNWU5jS1U4Tk94WEE4TWdTSU00T2tIN1IyMkpPL1VOcmlkeDFmcVVYQkF3Y0ZUQTlXV3FYRWJ5T3RrYWNaWS9ZZE1XYU8zTWNGeU5LOUdKMHVpN1RncC85T0c4VHQwTXV0d0lyNWNIL3J6UFZkSFExSXZYcjdBdUkyRzJ0eWFWMmh4ZXd0MHMwZ0FvUG5oUC9WUE1pWFE1UWdJQkQyMnZSTlZLSHU0RXF0TURiU0VKYUFMeGc0ZU9lcnZkeEFsRzdNeWtKV3ZiajMxR3lLVEZ3VzA5K2xjbjlhZEwxRjdwUENvdTR3QU1ZK1lzQ3JLQU5lTEtiTmJ2SUQxUjFlOE1xWlZrZzY5VCtLVjZscEJIZE9EemZySFl5VENoZzFCVU9aWEp5MlM2clllTGoxeGFtWHd1WVBiQk9ZK2FhNTNOWUVhMzF2ZjRSL0JQNWIra3FHOGh0aEVJS3RzdFpMQkY0TkVBTGdnOGRFUHpZdkR5d1plNE1qd2JqdzhVNEV2aDl1azViMURVdlByNGxYa1pFTUNSM05aMHA0RVZIa041Y21VYldqNUJIc3ZPcUR6RmNYWkROSnpnQlZJSnNVaURuT3cvNEpUVzVXSFQvQzJCb3hadEYyamFJZVRGc1FSbXN1c0hSeDE4SHZIR29GbGFpUXVVK252ZVFuK0o3VlpFQU05MHhUVmxUdlJucWRzcStWUWM2NHZFN01TMXZSK0M0NlloRHQwcWVCNjN5dFg1TCtQTjBWYWQzRGR0VEVKbGpjUkNwQ3ZQNTRVL04wOEk3bWxOeWxZRHpxaEowZDFML1Q3Q2FsbWl6QT0tLS9ITUYvRDJPT2g1NmRrQmFjZU16MWc9PQ%3D%3D--06f2dcfe20e47bce247385cd1bb58432cf9a23b4"
+datadome_value = "zQ8EBa8n9MEJuvrerBp~kciQp5JV_xK0YvNkE9s3DUaMjR6_9EQiptVVmB6x0YgoXx~fQWnYxSpWyYg~Eq6ntWG4rI3KxVrcc3836MssD54FBx6sz6neHyJuG_NuQoq6"
+_alltrails_session_value = "ajRsTmNRWkFUWkU5a0pBbW9SZjl6NHhsM0NwRTRoODZTYnIzVlV0VGVVRGtDRTc1M1FVUGhHakhVVTg5ekJVNXhBa3JGSTQ5dFJiajNOd2d2dnJkaHd6bUpwU1NTdkMycHZ2SjRXOWFLczMzdVByemJVaUpRZi9VTWREcVdDN1FlTXR3c0xTZU5PMnRBbWYvUWFuendqY2JEdzRjZzlXNm1lMDh0ZThDWVRldWtaRytNeDRreFk1S1lGQlNNZ1FDaCtYRU9MMmRRNWFOcEl2TmFFamVjL3I1SnVENDU1WHBZd05tUytzeEo0UXBKL2dlQmVnS3R2QUxyd2VPRlRvM2FSU0V0b2M3WW5RcmljMUpVUXFJVHhzUEQwU1ZhcUptUmJoamNDcEdEVXg2MHJ1WUdJVDhQODFja2lVKzNVeG01anFERkRKMitoN1prcys3N29BNGp5QnZ5UVMxYk9ZQldKTmQyOENTQ3A1V2RaTGVsMFp5QmhJMnNhenJXeEhCYXBVamJ4UmMyV3FValhOQUw2aVlZZWIyM1RvbFVVMEUxREc2dlcxNFZHbU05aGh3MnpNenJOUis0OHIvaVAxdEo5NzhwekNnRzBhaHZBcDBKZG9Oa0RCeWUyeHdXbmxXMHQ4T0ZvNFJnRnhRRVdmejB1dDVsOUxEc09tY01vRGMzRU9lNXd4bnlncGNIYTJNVzUvVysyNnhVN3dxOEI0N3lHaDVrZ3c5YUl4U1M3OXFKUE5URmtncVphS1hEZVU0alZhUkJ0Umdod1kxd1NkaCtkV1lFRkYrWEhTOXF5c2FCN0Irdm13TmY3eXVkdGFiQitCUXpqbGo5WGQxYlcvZUtXb3Zac2RHR1h5dUlJUGxYcGNNVzc5bE5iNGpyL0w5d0JvZkljNndDcmNDL3lMVTZEaVpNSTNKTWdGR0NaejRLbTl0cEw2NkwxVHZlYnR0MGVmMW9qL3FmakltTVIweXFIVndZdTZhL1VlNlBuK2taMm9UTzdiUGZVUTR1RkQwaDdZWnEvUmg4RXpVWitMN3A2RmF4WXhZVEQ1MURLeGdMSWJ4eW5FOFZWU3V6bFZWZUtHcDdyQmRtcGhwVzV4bS0tSUlyM2xUMU1FNzluNkxicWhqQkFOQT09--25774759acddada83c95bb647167b5060141d887"
 
 # Assign variables to headers for trail data
 headers = {
@@ -38,7 +38,7 @@ headers = {
     "Cache-Control": "max-age=0",
     "Cookie": f"referrer={referrer_value}; cx_savetoday_shown={cx_savetoday_shown_value}; osano_consentmanager_uuid={osano_consentmanager_uuid_value}; osano_consentmanager={osano_consentmanager_value}; G_ENABLED_IDPS={G_ENABLED_IDPS_value}; g_state={g_state_value}; at_redirected_lang_amt={at_redirected_lang_amt_value}; at_former_lang_code_pre_redirect={at_former_lang_code_pre_redirect_value}; amp_6ad463={amp_6ad463_value}; at_osano={at_osano_value}; at_redirected_lang_msg_shown={at_redirected_lang_msg_shown_value}; return_to={return_to_value}; _auth_token={_auth_token_value}; datadome={datadome_value}; _alltrails_session={_alltrails_session_value}",
     "Dnt": "1",
-    "If-None-Match": 'W/"1d6e354de51c5789eb8cd2bb35ccaae5"',
+    "If-None-Match": 'W/"2fd658bb3132ee01aaf73db25e00ecc8"',
     "Sec-Ch-Device-Memory": "8",
     "Sec-Ch-Ua": '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
     "Sec-Ch-Ua-Arch": '""',

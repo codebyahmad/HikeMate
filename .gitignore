@@ -7,18 +7,11 @@ __pycache__/
 # Local development settings
 local_settings.py
 
-# Database
-*.sqlite3
-db.sqlite3
-
 # Log files
 *.log
 
-# Media files
-media/
-
-# Static files
-staticfiles/
+# Jupyter Notebook
+.ipynb_checkpoints
 
 # Virtual environment
 venv/
@@ -31,10 +24,6 @@ env/
 *.sublime-project
 *.sublime-workspace
 
-# Docker
-Dockerfile
-docker-compose.yml
-
 # Python bytecode
 *.pyc
 __pycache__/
@@ -46,9 +35,12 @@ __pycache__/
 .coverage
 htmlcov/
 
-# Ignore test database
-*.db
-
 # Ignore .pyc files in the Django app
-myapp/__pycache__/
-myapp/*.pyc
+hikemate/__pycache__/
+hikemate/*.pyc
+
+# Exclude JSON files in alltrails/alltrails/
+alltrails/alltrails/*.json
+
+# Exclude the "images" folder in alltrails/alltrails/
+alltrails/alltrails/images/
