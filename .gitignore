@@ -24,20 +24,12 @@ env/
 *.sublime-project
 *.sublime-workspace
 
-# Python bytecode
-*.pyc
-__pycache__/
-
 # Ignore all migrations
 **/migrations/
 
 # Ignore coverage reports
 .coverage
 htmlcov/
-
-# Ignore .pyc files in the Django app
-hikemate/__pycache__/
-hikemate/*.pyc
 
 # Exclude JSON files in alltrails/alltrails/
 alltrails/alltrails/*.json
