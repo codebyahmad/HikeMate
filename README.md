@@ -1,6 +1,6 @@
 # HikeMate - A Trail Recommender System
 
-developed by five M.Sc. Information Systems students from the University of Münster.
+developed by M.Sc. Information Systems students from the University of Münster.
 
 Data Integration - Capstone Project - December 2023
 

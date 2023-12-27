@@ -24,9 +24,6 @@ env/
 *.sublime-project
 *.sublime-workspace
 
-# Ignore all migrations
-**/migrations/
-
 # Ignore coverage reports
 .coverage
 htmlcov/
