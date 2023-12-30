@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
+import Destinations from "./components/Destinations";
+import HotelsAndRestaurants from "./components/HotelsAndRestaurants";
+import Hero from "./components/Hero";
+import Travel from "./components/Travel";
+import AboutUs from "./components/AboutUs";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -12,8 +17,8 @@ function App() {
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
-        const jsonData = await response.json();
-        setTrails(jsonData);
+        const trailData = await response.json();
+        setTrails(trailData);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -23,19 +28,27 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <div>
-        <h1>Your Fetched Data:</h1>
-        <ul>
-          {trails.map((item) => (
-            <li key={item.id}>
-              {/* Customize this part based on your data structure */}
-              <strong>{item.name}</strong>: {item.avg_rating}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    // <div className="App">
+    //   <div>
+    //     <h1>Your Fetched Data:</h1>
+    //     <ul>
+    //       {trails.map((item) => (
+    //         <li key={item.id}>
+    //           {/* Customize this part based on your data structure */}
+    //           <strong>{item.name}</strong>: {item.avg_rating}
+    //         </li>
+    //       ))}
+    //     </ul>
+    //   </div>
+    // </div>
+    <>
+      <Hero />
+      <Destinations />
+      <HotelsAndRestaurants />
+      <Travel />
+      <AboutUs />
+      <Footer />
+    </>
   );
 }
 
