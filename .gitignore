@@ -23,6 +23,7 @@ env/
 *.pycharm
 *.sublime-project
 *.sublime-workspace
+*.djlintrc
 
 # Ignore coverage reports
 .coverage
