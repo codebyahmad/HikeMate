@@ -1,6 +1,6 @@
 # a web scraping project by ahmad
 
-# This script is designed to scrape trails data and photos from the https://www.alltrails.com based on a list of 
+# This script is designed to scrape trails data and photos from the https://www.alltrails.com based on a list of
 # trail IDs provided in an Excel file. The scraped data is then saved in JSON format in a designated output folder,
 # and trail photos are saved in a separate folder.
 
@@ -8,17 +8,18 @@
 # 1. Follow the instructions in headers.py
 # 2. Ensure that the required libraries (requests, json, time, os, pandas, openpyxl) are installed.
 # 3. Run the script to initiate the scraping process. Adjust the delay value if necessary to comply with API rate limits.
-# 4. The scraped trail data will be stored in the "alltrails" folder, and trail photos will be saved in the 
+# 4. The scraped trail data will be stored in the "alltrails" folder, and trail photos will be saved in the
 #    "alltrails/images" subfolder.
 
-import requests
 import json
-import time
 import os
-import pandas as pd
-from tqdm import tqdm
+import time
 from concurrent.futures import ThreadPoolExecutor
+
+import pandas as pd
+import requests
 from headers import headers
+from tqdm import tqdm
 
 print("Let's scrape and chill. May the code be ever in your favor! :) Skadoosh! ")
 
@@ -44,6 +45,7 @@ os.makedirs(output_folder, exist_ok=True)
 image_folder = os.path.join(output_folder, "images")
 os.makedirs(image_folder, exist_ok=True)
 
+
 # Function to scrape a trail
 def scrape_trail(trail_id):
     try:
@@ -63,13 +65,15 @@ def scrape_trail(trail_id):
 
             # Save the JSON data to a file in the output folder based on the trail ID for trail data
             filename = os.path.join(output_folder, f"trail_{trail_id}.json")
-            with open(filename, 'w') as file:
+            with open(filename, "w") as file:
                 json.dump(trail_data, file, indent=2)
 
             # Introduce a delay between requests for trail data (you can adjust this value)
             time.sleep(10)
         else:
-            print(f"\nFailed to retrieve data for trail ID {trail_id}. Status code: {response.status_code}")
+            print(
+                f"\nFailed to retrieve data for trail ID {trail_id}. Status code: {response.status_code}"
+            )
 
         # Construct the complete URL for trail photos
         photo_url = f"{base_url}{trail_id}/photos/0?size=larger_wide&key={api_key}"
@@ -81,13 +85,15 @@ def scrape_trail(trail_id):
         if trail_photo.status_code == 200:
             # Save the image to a file in the images folder based on the trail ID for trail photos
             image_filename = os.path.join(image_folder, f"{trail_id}.webp")
-            with open(image_filename, 'wb') as image_file:
+            with open(image_filename, "wb") as image_file:
                 image_file.write(trail_photo.content)
 
             # Introduce a delay between requests for trail photos (you can adjust this value)
             time.sleep(10)
         else:
-            print(f"\nFailed to retrieve photo for trail ID {trail_id}. Status code: {trail_photo.status_code}")
+            print(
+                f"\nFailed to retrieve photo for trail ID {trail_id}. Status code: {trail_photo.status_code}"
+            )
 
         # Return trail_id to update the progress bar
         return trail_id
@@ -96,11 +102,16 @@ def scrape_trail(trail_id):
         print(f"\nAn error occurred for trail ID {trail_id}: {e}")
         return None
 
+
 # Wrap the progress bar around the ThreadPoolExecutor
 try:
     with ThreadPoolExecutor(max_workers=5) as executor:
         # Use tqdm to create a progress bar
-        for _ in tqdm(executor.map(scrape_trail, trail_ids), total=len(trail_ids), desc="Scraping Trails"):
+        for _ in tqdm(
+            executor.map(scrape_trail, trail_ids),
+            total=len(trail_ids),
+            desc="Scraping Trails",
+        ):
             pass
 
 except Exception as e:

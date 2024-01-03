@@ -13,9 +13,10 @@
 # - Additional fields can be included in the 'fieldnames' list as needed.
 # - The resulting CSV file is created in the same folder as the JSON files.
 
-import os
-import json
 import csv
+import json
+import os
+
 
 def csv_generator(json_folder, csv_filename):
     # Check if the folder exists
@@ -24,7 +25,7 @@ def csv_generator(json_folder, csv_filename):
         return
 
     # List all files in the folder
-    json_files = [f for f in os.listdir(json_folder) if f.endswith('.json')]
+    json_files = [f for f in os.listdir(json_folder) if f.endswith(".json")]
 
     # Check if there are any JSON files
     if not json_files:
@@ -39,7 +40,7 @@ def csv_generator(json_folder, csv_filename):
         json_path = os.path.join(json_folder, json_file)
 
         # Read JSON data
-        with open(json_path, 'r', encoding='utf-8-sig') as file:
+        with open(json_path, "r", encoding="utf-8-sig") as file:
             json_data = json.load(file)
 
             # Check if the expected fields exist
@@ -48,7 +49,7 @@ def csv_generator(json_folder, csv_filename):
 
                 # Helper function to safely extract values or return an empty string
                 def safe_get(data, key):
-                    return data[key] if key in data else ''
+                    return data[key] if key in data else ""
 
                 # Check if the country is Switzerland
                 country = safe_get(trail["location"], "country").lower()
@@ -59,38 +60,69 @@ def csv_generator(json_folder, csv_filename):
                 duration_minutes = safe_get(trail["trailGeoStats"], "durationMinutes")
                 if not duration_minutes:
                     duration = safe_get(trail["defaultActivityStats"], "duration")
-                    duration_minutes = duration / 3600 if duration else ''
+                    duration_minutes = duration / 3600 if duration else ""
 
-                trail_data_list.append({
-                    "trail_id": safe_get(trail, "id"),
-                    "name": safe_get(trail, "name"),
-                    "city": safe_get(trail["location"], "city"),
-                    "region_name": safe_get(trail["location"], "regionName"),
-                    "country_name": safe_get(trail["location"], "country_name"),
-                    "_geoloc": {'lat': safe_get(trail["location"], "latitude"), 'lng': safe_get(trail["location"], "longitude")},
-                    "popularity": safe_get(trail, "popularity"),
-                    "length": safe_get(trail["trailGeoStats"], "length"),
-                    "elevation_start": safe_get(trail["trailGeoStats"], "elevationStart"),
-                    "elevation_gain": safe_get(trail["trailGeoStats"], "elevationGain"),
-                    "elevation_max": safe_get(trail["trailGeoStats"], "elevationMax"),
-                    "unit": "m",
-                    "duration_minutes": duration_minutes,
-                    "avg_rating": safe_get(trail, "avgRating"),
-                    "difficulty": safe_get(trail["defaultActivityStats"], "difficulty"),
-                    "visitor_usage": safe_get(trail["defaultActivityStats"], "visitorUsage"),
-                    "season": {'start': safe_get(trail["defaultActivityStats"], "seasonStart"), 'end': safe_get(trail["defaultActivityStats"], "seasonEnd")},
-                    "route_type": safe_get(trail, "routeType"),
-                    "review_count": safe_get(trail["trailCounts"], "reviewCount"),
-                    "photo_count": safe_get(trail["trailCounts"], "photoCount"),
-                    "track_count": safe_get(trail["trailCounts"], "trackCount"),
-                    "completed_count": safe_get(trail["trailCounts"], "completedCount"),
-                    "activities": [activity["uid"] for activity in safe_get(trail["attributes"], "activities")],
-                    "features": [feature["uid"] for feature in safe_get(trail["attributes"], "features")],
-                    "obstacles": [obstacle["uid"] for obstacle in safe_get(trail["attributes"], "obstacles")],
-                    "slug": safe_get(trail, "slug"),
-                    "overview": safe_get(trail, "overview")
-                    # Add more fields as needed
-                })
+                trail_data_list.append(
+                    {
+                        "trail_id": safe_get(trail, "id"),
+                        "name": safe_get(trail, "name"),
+                        "city": safe_get(trail["location"], "city"),
+                        "region_name": safe_get(trail["location"], "regionName"),
+                        "country_name": safe_get(trail["location"], "country_name"),
+                        "_geoloc": {
+                            "lat": safe_get(trail["location"], "latitude"),
+                            "lng": safe_get(trail["location"], "longitude"),
+                        },
+                        "popularity": safe_get(trail, "popularity"),
+                        "length": safe_get(trail["trailGeoStats"], "length"),
+                        "elevation_start": safe_get(
+                            trail["trailGeoStats"], "elevationStart"
+                        ),
+                        "elevation_gain": safe_get(
+                            trail["trailGeoStats"], "elevationGain"
+                        ),
+                        "elevation_max": safe_get(
+                            trail["trailGeoStats"], "elevationMax"
+                        ),
+                        "unit": "m",
+                        "duration_minutes": duration_minutes,
+                        "avg_rating": safe_get(trail, "avgRating"),
+                        "difficulty": safe_get(
+                            trail["defaultActivityStats"], "difficulty"
+                        ),
+                        "visitor_usage": safe_get(
+                            trail["defaultActivityStats"], "visitorUsage"
+                        ),
+                        "season": {
+                            "start": safe_get(
+                                trail["defaultActivityStats"], "seasonStart"
+                            ),
+                            "end": safe_get(trail["defaultActivityStats"], "seasonEnd"),
+                        },
+                        "route_type": safe_get(trail, "routeType"),
+                        "review_count": safe_get(trail["trailCounts"], "reviewCount"),
+                        "photo_count": safe_get(trail["trailCounts"], "photoCount"),
+                        "track_count": safe_get(trail["trailCounts"], "trackCount"),
+                        "completed_count": safe_get(
+                            trail["trailCounts"], "completedCount"
+                        ),
+                        "activities": [
+                            activity["uid"]
+                            for activity in safe_get(trail["attributes"], "activities")
+                        ],
+                        "features": [
+                            feature["uid"]
+                            for feature in safe_get(trail["attributes"], "features")
+                        ],
+                        "obstacles": [
+                            obstacle["uid"]
+                            for obstacle in safe_get(trail["attributes"], "obstacles")
+                        ],
+                        "slug": safe_get(trail, "slug"),
+                        "overview": safe_get(trail, "overview")
+                        # Add more fields as needed
+                    }
+                )
             else:
                 print(f"\nExpected data not found in file '{json_file}'. Skipping.")
 
@@ -101,12 +133,40 @@ def csv_generator(json_folder, csv_filename):
 
     # Write trail data to CSV
     csv_path = os.path.join(json_folder, csv_filename)
-    with open(csv_path, 'w', newline='', encoding='utf-8-sig') as csvfile:
-        fieldnames = ["trail_id", "name", "city", "region_name", "country_name", "_geoloc", "popularity", "length", "elevation_start", "elevation_gain", "elevation_max", "unit", "duration_minutes", "avg_rating", "difficulty", "visitor_usage", "season", "route_type", "review_count", "photo_count", "track_count", "completed_count", "activities", "features", "obstacles", "slug", "overview"]
+    with open(csv_path, "w", newline="", encoding="utf-8-sig") as csvfile:
+        fieldnames = [
+            "trail_id",
+            "name",
+            "city",
+            "region_name",
+            "country_name",
+            "_geoloc",
+            "popularity",
+            "length",
+            "elevation_start",
+            "elevation_gain",
+            "elevation_max",
+            "unit",
+            "duration_minutes",
+            "avg_rating",
+            "difficulty",
+            "visitor_usage",
+            "season",
+            "route_type",
+            "review_count",
+            "photo_count",
+            "track_count",
+            "completed_count",
+            "activities",
+            "features",
+            "obstacles",
+            "slug",
+            "overview",
+        ]
         # Add more field names as needed
 
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        
+
         # Write header
         writer.writeheader()
 
@@ -117,7 +177,8 @@ def csv_generator(json_folder, csv_filename):
     print(f"CSV file '{csv_filename}' created in '{json_folder}'.")
     print("My time has come... You must continue your journey without me!")
 
+
 # Change variable names as desired
-json_folder = 'alltrails'
-csv_filename = 'alltrails-data.csv'
+json_folder = "alltrails"
+csv_filename = "alltrails-data.csv"
 csv_generator(json_folder, csv_filename)

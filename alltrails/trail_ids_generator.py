@@ -8,8 +8,10 @@
 # 2. Run this script to merge the files, remove duplicate IDs, and save the result.
 
 import os
+
 import pandas as pd
 from tqdm import tqdm
+
 
 def trail_ids_generator(folder_path, output_file="trail_ids.xlsx"):
     # Get the absolute path of the current script
@@ -42,6 +44,7 @@ def trail_ids_generator(folder_path, output_file="trail_ids.xlsx"):
     combined_data.to_excel(output_path, index=False)
 
     print(f"\nMerged and unique IDs saved to {output_path}.")
+
 
 # Replace 'trail_ids_grabber' with the actual folder path
 folder_path = "trail_ids_grabber"

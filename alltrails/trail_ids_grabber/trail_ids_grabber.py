@@ -1,7 +1,7 @@
 # a web scraping project by ahmad
 
 # This script is designed to scrape trail ids from the https://www.alltrails.com based on a list of trail IDs
-# provided in an Excel file. 
+# provided in an Excel file.
 
 # Instructions:
 # 1. Follow the instructions in headers.py
@@ -10,14 +10,15 @@
 
 import os
 import sys
-import requests
 import time
-import pandas as pd
-from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 
-sys.path.append(os.path.abspath('..'))
-from headers import headers # ../headers.py
+import pandas as pd
+import requests
+from tqdm import tqdm
+
+sys.path.append(os.path.abspath(".."))
+from headers import headers  # ../headers.py
 
 # Base URL and API key for alltrails.com
 base_url = "https://www.alltrails.com/api/alltrails/v2/trails/"
@@ -35,6 +36,7 @@ trail_ids = df["trail_id"].tolist()
 
 # List to store new trail IDs
 new_trail_ids = set()
+
 
 # Function to scrape trail ids
 def trail_ids_grabber(trail_id):
@@ -63,7 +65,9 @@ def trail_ids_grabber(trail_id):
             time.sleep(10)
 
         else:
-            print(f"\nFailed to retrieve data for trail ID {trail_id}. Status code: {response.status_code}")
+            print(
+                f"\nFailed to retrieve data for trail ID {trail_id}. Status code: {response.status_code}"
+            )
 
         # Update the progress bar
         pbar.update(1)
@@ -72,6 +76,7 @@ def trail_ids_grabber(trail_id):
         print(f"\nAn error occurred for trail ID {trail_id}: {e}")
         # Update the progress bar in case of an error
         pbar.update(1)
+
 
 # Create a progress bar with the total number of trails
 total_trails = len(trail_ids)
