@@ -3,8 +3,6 @@ import uuid
 from django.contrib.auth.models import User
 from django.db import models
 
-# from users.models import Profile
-
 
 # Create your models here.
 class RouteType(models.Model):
