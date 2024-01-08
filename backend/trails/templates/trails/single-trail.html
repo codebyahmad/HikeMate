@@ -49,21 +49,26 @@
                         </form>
                         <div class="commentList">
                             {% for review in trail.review_set.all %}
-                                <div class="comment">
-                                    <a href="profile.html">
-                                        <img class="avatar avatar--md" src="#" alt="user" />
-                                    </a>
-                                    <div class="comment__details">
-                                        <a href="profile.html" class="comment__author">{{ review.user.username }}</a>
-                                        <p class="comment__info">{{ review.description }}</p>
+                                {% if review.description %}
+                                    <div class="comment">
+                                        <a href="{% url 'user-profile' review.user.profile.id %}">
+                                            <img class="avatar avatar--md"
+                                                 src="{{ review.user.profile.profile_image.url }}"
+                                                 alt="{{ review.user.profile.username }}" />
+                                        </a>
+                                        <div class="comment__details">
+                                            <a href="{% url 'user-profile' review.user.profile.id %}"
+                                               class="comment__author">{{ review.user.profile.name }}</a>
+                                            <p class="comment__info">{{ review.description|linebreaksbr }}</p>
+                                        </div>
                                     </div>
-                                </div>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
+        {% comment %} </div> {% endcomment %}
+    </main>
 {% endblock content %}
