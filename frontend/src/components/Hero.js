@@ -2,57 +2,41 @@ import React from "react";
 
 import { Box, Container, Typography } from "@mui/material";
 
-import Navbar from "./Navbar";
+import vector1 from "../assets/images/Vector1.svg";
+import rec1 from "../assets/images/rec1.png";
+import rec2 from "../assets/images/rec2.png";
+import rec3 from "../assets/images/rec3.png";
+import rec4 from "../assets/images/rec4.png";
+import rec5 from "../assets/images/rec5.png";
+import rec6 from "../assets/images/rec6.png";
 import bgImage from "../assets/main/bg-image.webp";
+import Navbar from "./Navbar";
 import SearchNav from "./SearchNav";
 
 const Hero = () => {
 	return (
-		<Container
-			maxWidth="false"
-			disableGutters
-			sx={{
-				p: {
-					xs: 2,
-					sm: 5,
-					md: 2,
-				},
-				background: `url(${bgImage}) center center/cover`,
-				minHeight: "800px",
-				borderRadius: {
-					xs: "0px 0px 27px 27px",
-					md: "0px 0px 54px 54px",
-				},
-			}}
-		>
-			<Box
-				sx={{
-					display: "flex",
-					alignItems: "center",
-					flexDirection: "column",
-				}}
-			>
-				<Navbar />
-				<Typography
-					sx={{
-						color: "#fff",
-						marginTop: "196.5px",
-						textAlign: "center",
-						fontWeight: "600",
-						fontSize: {
-							xs: "38px",
-							md: "48px",
-						},
-						lineHeight: "62px",
-						mb: 4,
-					}}
-				>
-					Find your dream trail
-				</Typography>
-				{/* <MainButton text="Discover on 3D Globe" iconImg={btnGlobalIcon} /> */}
-				<SearchNav />
-			</Box>
-		</Container>
+			<div class="container">
+			<Navbar />
+			<div class="content">
+			<img src={vector1} alt=""></img>
+			<h1>Find Your Trail<br/>and Let It Lead You <br/> to Adventure!</h1>
+
+			<form action="" class="search-bar">
+				<input type="text" placeholder="Select region" name="q"/>
+				<button type="submit">Recommend</button>
+			</form>
+			
+			<div class="recommend-part">
+				<img src={rec1} alt=""/>
+				<img src={rec2} alt=""/>
+				<img src={rec3} alt=""/>
+				<img src={rec4} alt=""/>
+				<img src={rec5} alt=""/>
+				<img src={rec6} alt=""/>
+				<p>350+ people already rated trails</p>
+			</div>
+		</div>	
+			</div>
 	);
 };
 
