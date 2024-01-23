@@ -11,15 +11,20 @@ from .utils import paginateTrails, searchTrails
 
 # Create your views here.
 def trails(request):
-    trails, search_query = searchTrails(request)
-    custom_range, trails = paginateTrails(request, trails, 6)
+    # trails, search_query = searchTrails(request)
+    # custom_range, trails = paginateTrails(request, trails, 6)
     features = Feature.objects.all()
-    print(features)
+    regions = Trail.objects.all().order_by('-region')
+    unique_regions = set()
+
+    for region in regions:
+        unique_regions.add(region.region)
     context = {
-        "trails": trails,
-        "search_query": search_query,
-        "custom_range": custom_range,
-        "features": features
+        # "trails": trails,
+        # "search_query": search_query,
+        # "custom_range": custom_range,
+        "features": features,
+        "regions": unique_regions
     }
 
     return render(request, "trails/trails.html", context)
