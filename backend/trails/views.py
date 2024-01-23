@@ -1,5 +1,5 @@
 from django.contrib.auth.decorators import login_required
-from django.db.models import Q
+from django.db.models import Q, Max, Min
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.urls import is_valid_path
@@ -13,10 +13,15 @@ from .utils import paginateTrails, searchTrails
 def trails(request):
     # trails, search_query = searchTrails(request)
     # custom_range, trails = paginateTrails(request, trails, 6)
+    trails = Trail.objects.all()
     features = Feature.objects.all()
-    regions = Trail.objects.all().order_by('-region')
-    unique_regions = set()
 
+    regions = trails.order_by('-region')
+    unique_regions = set()
+    length_max = trails.order_by('-length')[0].length
+    length_min = trails.order_by('length')[0].length
+    duration_max = trails.order_by('-duration')[0].duration
+    duration_min = trails.order_by('duration')[0].duration
     for region in regions:
         unique_regions.add(region.region)
     context = {
@@ -24,7 +29,11 @@ def trails(request):
         # "search_query": search_query,
         # "custom_range": custom_range,
         "features": features,
-        "regions": unique_regions
+        "regions": unique_regions,
+        "length_max": length_max,
+        "length_min": length_min,
+        "duration_max": duration_max,
+        "duration_min": duration_min,
     }
 
     return render(request, "trails/trails.html", context)
