@@ -82,7 +82,7 @@ def content_based_recommendations_view(request):
     cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
 
     content_based_recommendations = get_content_based_recommendations(content_features, trail_name, cosine_sim,
-                                                                      num_of_trials)
+                                                                      int(num_of_trials))
 
     trails = trails.filter(name__in=[v['name'] for i, v in content_based_recommendations.iterrows()])
 
