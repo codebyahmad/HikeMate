@@ -5,7 +5,7 @@ from django.shortcuts import redirect, render
 from django.urls import is_valid_path
 
 from .forms import TrailForm
-from .models import Trail
+from .models import Trail, Feature
 from .utils import paginateTrails, searchTrails
 
 
@@ -13,11 +13,15 @@ from .utils import paginateTrails, searchTrails
 def trails(request):
     trails, search_query = searchTrails(request)
     custom_range, trails = paginateTrails(request, trails, 6)
+    features = Feature.objects.all()
+    print(features)
     context = {
         "trails": trails,
         "search_query": search_query,
         "custom_range": custom_range,
+        "features": features
     }
+
     return render(request, "trails/trails.html", context)
 
 

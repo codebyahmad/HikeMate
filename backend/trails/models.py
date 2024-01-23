@@ -107,7 +107,7 @@ class Trail(models.Model):
     season_end = models.PositiveIntegerField(choices=MONTH_CHOICES)
 
     # Trail stats
-    length = models.DecimalField(max_digits=8, decimal_places=3)
+    length = models.DecimalField(max_digits=12, decimal_places=4)
     duration = models.PositiveIntegerField()
     elevation_start = models.DecimalField(max_digits=9, decimal_places=4)
     elevation_gain = models.DecimalField(max_digits=9, decimal_places=4)
