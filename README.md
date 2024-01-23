@@ -18,7 +18,7 @@ Our Trail Recommender System relies on trail data scraped from [AllTrails](https
 - Jingxian He ([@Jing0985](https://github.com/Jing0985))
 - Nail Khazeev
 - Isroil Khudoyberdiev
-- Alisher Nosirov
+- Alisher Nosirov ([@temptationofhiphop](https://github.com/temptationofhiphop))
 
 ## Contributions
 
