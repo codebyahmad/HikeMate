@@ -1,12 +1,12 @@
 from django.urls import path
 
-from . import views
+from .views import trails, filtered_trails, content_based_recommendations_view, createTrail, updateTrail, deleteTrail
 
 urlpatterns = [
-    path("", views.trails, name="trails"),
-    path("filtered-trials/", views.content_based_recommendations_view, name="trails-r"),
-    path("trail/<str:pk>/", views.trail, name="trail"),
-    path("create-trail/", views.createTrail, name="create-trail"),
-    path("update-trail/<str:pk>/", views.updateTrail, name="update-trail"),
-    path("delete-trail/<str:pk>/", views.deleteTrail, name="delete-trail"),
+    path("", trails, name="trails"),
+    path("filtered-trials/", filtered_trails, name="trails-f"),
+    path("trail/<str:pk>/", content_based_recommendations_view, name="trails-r"),
+    path("create-trail/", createTrail, name="create-trail"),
+    path("update-trail/<str:pk>/", updateTrail, name="update-trail"),
+    path("delete-trail/<str:pk>/", deleteTrail, name="delete-trail"),
 ]

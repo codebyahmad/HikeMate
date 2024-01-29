@@ -14,7 +14,7 @@ from .utils import paginateTrails, searchTrails
 def trails(request):
     # trails, search_query = searchTrails(request)
     # custom_range, trails = paginateTrails(request, trails, 6)
-    trails = Trail.objects.all()
+    trails = Trail.objects.order_by('?')[:4]
     features = Feature.objects.all()
     # p = request.GET.get('price_lte')
     # print(p)
@@ -27,7 +27,7 @@ def trails(request):
     for region in regions:
         unique_regions.add(region.region)
     context = {
-        # "trails": trails,
+        "trails": trails,
         # "search_query": search_query,
         # "custom_range": custom_range,
         "features": features,
@@ -46,14 +46,17 @@ def filtered_trails(request):
     length_min = request.GET.get('length_min')
     duration_max = request.GET.get('duration_max')
     duration_min = request.GET.get('duration_min')
+    difficulty = request.GET.get('difficulty').split(',') if request.GET.get('difficulty') else ()
     region = request.GET.get('region')
     features = request.GET.get('features').split(',') if request.GET.get('features') else ()
     trails = Trail.objects.filter(region=region,
                                   length__range=(length_min, length_max),
                                   duration__range=(duration_min, duration_max),
-                                  features__in=features).all()
+                                  features__name__in=features,
+                                  difficulty__in=difficulty).distinct().all()
 
     return render(request, "trails/trails.html", context={'trails': trails})
+    # return render(request, "trails/filtered-trails.html", context={'trails': trails})
 
 
 def get_content_based_recommendations(df, trail_name, cosine_sim, n):
@@ -65,7 +68,8 @@ def get_content_based_recommendations(df, trail_name, cosine_sim, n):
     return df[['name', 'avg_rating']].iloc[trail_indices]
 
 
-def content_based_recommendations_view(request):
+def content_based_recommendations_view(request, pk):
+    trail_object = Trail.objects.filter(id=pk).first()
     trail_name = request.GET.get('trail_name')
     num_of_trials = request.GET.get('num_of_trials')
     trails = Trail.objects.all()
@@ -86,7 +90,9 @@ def content_based_recommendations_view(request):
 
     trails = trails.filter(name__in=[v['name'] for i, v in content_based_recommendations.iterrows()])
 
-    return render(request, "trails/filtered-trails.html", context={'trails': trails})
+
+    # Create trails details information
+    return render(request, "trails/single-trail.html", context={'trails': trails, 'trail_object': trail_object})
 
 
 def trail(request, pk):
