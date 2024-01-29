@@ -178,7 +178,7 @@
             </div>
     
             <div class="trendy-card-class">
-                {%for trail in trails %}
+                {%for trail in rand_trails %}
 				<div class="trendy-card">
 					<img src="{{trail.featured_image}}" alt="">
 					<div class="trendy-card-info">
@@ -542,51 +542,6 @@
             });
         });
     </script>
-        
-       
-
-
-        <!-- Search Result: DevList -->
-        <!-- <section class="projectsList">
-            <div class="container">
-                <div class="grid grid--three">
-                    {% for trail in trails %}
-                        <div class="column">
-                            <div class="card project">
-                                <a href="{% url 'trail' trail.id %}" class="project">
-                                    <img class="project__thumbnail"
-                                         src="{{ trail.featured_image.url }}"
-                                         alt="trail thumbnail" />
-                                    <div class="card__body">
-                                        <h3 class="project__title">{{ trail.name }}</h3>
-                                        <p class="project--rating">
-                                            <span style="font-weight: bold;">{{ trail.avg_rating }}</span> Rating ({{ trail.review_count }} Review{{ trail.review_count|pluralize:"s" }})
-                                        </p>
-                                        <div class="project__tags">
-                                            {% for activity in trail.activities.all %}
-                                                <span class="tag tag--pill tag--main">
-                                                    <small>{{ activity }}</small>
-                                                </span>
-                                            {% endfor %}
-                                            {% for feature in trail.features.all %}
-                                                <span class="tag tag--pill tag--main">
-                                                    <small>{{ feature }}</small>
-                                                </span>
-                                            {% endfor %}
-                                            {% for obstacle in trail.obstacles.all %}
-                                                <span class="tag tag--pill tag--main">
-                                                    <small>{{ obstacle }}</small>
-                                                </span>
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </section> -->
         {% include "pagination.html" with queryset=trails custom_range=custom_range %}
     <!-- </main> -->
 {% endblock content %}
