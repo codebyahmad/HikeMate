@@ -14,7 +14,8 @@ from .utils import paginateTrails, searchTrails
 def trails(request):
     # trails, search_query = searchTrails(request)
     # custom_range, trails = paginateTrails(request, trails, 6)
-    trails = Trail.objects.order_by('?')[:4]
+    rand_trails = Trail.objects.order_by('?')[:4]
+    trails = Trail.objects.all()
     features = Feature.objects.all()
     # p = request.GET.get('price_lte')
     # print(p)
