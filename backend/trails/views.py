@@ -57,8 +57,7 @@ def filtered_trails(request):
                                   features__name__in=features,
                                   difficulty__in=difficulty).distinct().all()
 
-    return render(request, "trails/trails.html", context={'trails': trails})
-    # return render(request, "trails/filtered-trails.html", context={'trails': trails})
+    return render(request, "trails/filtered-trails.html", context={'trails': trails})
 
 
 def get_content_based_recommendations(df, trail_name, cosine_sim, n):
