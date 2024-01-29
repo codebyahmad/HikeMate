@@ -1,74 +1,197 @@
 {% extends "main.html" %}
 {% block content %}
     <!-- Main Section -->
-    <main class="singleProject my-md">
-        <div class="container">
-            <div class="layout">
-                <div class="column column--1of3">
-                    <h3 class="singleProject__subtitle">Attributes</h3>
-                    <div class="singleProject__toolStack">
-                        {% for activity in trail.activities.all %}
-                            <span class="tag tag--pill tag--sub tag--lg">
-                                <small>{{ activity }}</small>
-                            </span>
-                        {% endfor %}
-                        {% for feature in trail.features.all %}
-                            <span class="tag tag--pill tag--sub tag--lg">
-                                <small>{{ feature }}</small>
-                            </span>
-                        {% endfor %}
-                        {% for obstacle in trail.obstacles.all %}
-                            <span class="tag tag--pill tag--sub tag--lg">
-                                <small>{{ obstacle }}</small>
-                            </span>
-                        {% endfor %}
-                    </div>
-                </div>
-                <div class="column column--2of3">
-                    <img class="singleProject__preview"
-                         src="{{ trail.featured_image.url }}"
-                         alt="portfolio thumbnail" />
-                    <h2 class="singleProject__title">{{ trail.name }}</h2>
-                    <h3 class="singleProject__subtitle">About the Trail</h3>
-                    <div class="singleProject__info">{{ trail.overview }}</div>
-                    <div class="comments">
-                        <h3 class="singleProject__subtitle">Reviews</h3>
-                        <h5 class="project--rating">
-                            {{ trail.avg_rating }} Rating ({{ trail.review_count }} Review{{ trail.review_count|pluralize:"s" }})
-                        </h5>
-                        <form class="form" action="#" method="post">
-                            <!-- Textarea -->
-                            <div class="form__field">
-                                <label for="formInput#textarea">Comments:</label>
-                                <textarea class="input input--textarea"
-                                          name="message"
-                                          id="formInput#textarea"
-                                          placeholder="Write your comments here..."></textarea>
-                            </div>
-                            <input class="btn btn--sub btn--lg" type="submit" value="Comments" />
-                        </form>
-                        <div class="commentList">
-                            {% for review in trail.review_set.all %}
-                                {% if review.description %}
-                                    <div class="comment">
-                                        <a href="{% url 'user-profile' review.user.profile.id %}">
-                                            <img class="avatar avatar--md"
-                                                 src="{{ review.user.profile.profile_image.url }}"
-                                                 alt="{{ review.user.profile.username }}" />
-                                        </a>
-                                        <div class="comment__details">
-                                            <a href="{% url 'user-profile' review.user.profile.id %}"
-                                               class="comment__author">{{ review.user.profile.name }}</a>
-                                            <p class="comment__info">{{ review.description|linebreaksbr }}</p>
-                                        </div>
-                                    </div>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {% comment %} </div> {% endcomment %}
-    </main>
+    <div class="container-trail-info">
+		<nav class="navigation-container">
+			<img src="/images/logo-black.svg" class="logo">
+			<ul id="navigation">
+				<li>
+					<a href="/index.html">Home</a>
+					<a href="/trail.html">Recommendation</a>
+					<a href="#">Trends</a>
+					<a href="#">Regions</a>				
+				</li>
+			</ul>
+		</nav>
+
+		<div class="trail-extend-info">
+			<img src="{{trail_object.featured_image}}" alt="" class="preview-img">
+				<div class="details-extend">
+					<div class="details-extend-info">
+						<h1>
+							Length:
+						</h1>
+						<p>
+							{{trail_object.length}} m
+						</p>
+					</div>
+				
+					<div class="details-extend-info">
+						<h1>
+							Duration:
+						</h1>
+						<p>
+							{{trail_object.duration}} minutes
+						</p>
+					</div>
+
+					<!-- <div class="details-extend-info">
+						<h1>
+							Route type:
+						</h1>
+						<p>
+							
+						</p>
+					</div> -->
+
+					<div class="rating-extend">
+						<h1 class="avg-rating">
+							{{trail_object.avg_rating}}
+						</h1>
+						<div class="rate-star-extend" id="rate-star-extend">
+							<img src="/images/star.svg" alt="" class="star">
+							<img src="/images/star.svg" alt="" class="star">
+							<img src="/images/star.svg" alt="" class="star">
+							<img src="/images/star.svg" alt="" class="star">
+							<img src="/images/star.svg" alt="" class="star">
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="info-extend">
+			<h1>
+				{{trail_object.name}}
+			</h1>
+			<h2 class="difficulty">
+				{{trail_object.difficulty}}
+			</h2>
+			<h3>
+				{{trail_object.region}}, {{trail_object.city}}
+			</h3>
+
+			<p>
+        {{trail_object.overview}}
+			</p>
+		</div>
+		
+		<div class="rec-h1"><h1>
+			Recommended Trails:
+		</h1>
+		</div>
+		
+		<div class="trendy-card-class">
+			{%for trail in trails %}
+				<div class="trendy-card">
+					<img src="{{trail.featured_image}}" alt="">
+					<div class="trendy-card-info">
+						<h1>
+							{{trail.name}}
+						</h1>
+						<div class="add-info">
+							<h2>Length:</h2>
+							<h2 class="length-info">{{trail.length}} m</h2>
+						</div>
+						<a href="{% url 'trails-r' trail.id %}?trail_name={{trail.name}}&num_of_trials=10">Explore More</a>
+					</div>
+				</div>
+				{% endfor %}
+		</div>
+		
+
+	<footer>
+
+		<div class="footer-content">
+			<div class="footer-socials">
+			<img src="./images/logo_2.svg" alt="">
+			<p>Where the Trail Leads, <br> Adventure Follows</p>
+	
+				<div class="socials-icons">
+					<a href=""><img src="./images/linkedin.svg" alt=""></a>
+					<a href=""><img src="./images/messenger.svg" alt=""></a>
+					<a href=""><img src="./images/twitter.svg" alt=""></a>
+					<a href=""><img src="./images/twoo.svg" alt=""></a>
+				</div>
+			</div>
+	
+			<div class="extra-footer-info">
+				<a href="#"><h1>Sitemap</h1></a>
+				<a href="#"><p>Home</p></a>
+				<a href="#"><p>Recommendation</p></a>
+				<a href="#"><p>Trends</p></a>
+				<a href="#"><p>Regions</p></a>
+			</div>
+	
+			<div class="extra-footer-info">
+				<a href="#"><h1>Regions</h1></a>
+				<a href="#"><p>Bern</p></a>
+				<a href="#"><p>Graubünden</p></a>
+				<a href="#"><p>Zürich</p></a>
+				<a href="#"><p class="all-regions">All Regions</p></a>
+			</div>
+	
+			<div class="search-footer-info">
+				<h1>Join Our Newsletter</h1>
+	
+				<form action="" class="search-bar-footer">
+					<input type="text" placeholder="Your email address" name="q">
+					<button type="submit">Subscribe</button>
+				</form>
+	
+				<p>* Will send you weekly updates for your better <br>tour packages.</p>
+		</div>
+	</div>
+	<div class="horizontal-line"></div>
+	
+	<p class="copy-right">Copyright @ HikeMate 2023. All Rights Reserved.</p>
+	</footer>
+
+
+    <script>
+		document.addEventListener('DOMContentLoaded', function(){
+			var navLinks = document.querySelectorAll('nav ul li a');
+
+	        navLinks.forEach(function (item){
+			    item.style.color = 'black';		
+	        })
+        })
+
+        // Change the difficulty level
+        var elements = document.getElementsByClassName('difficulty');
+
+        for (var i = 0; i < elements.length; i++) {
+            var textContentLap = elements[i].textContent;
+
+            if (textContentLap.includes('1')) {
+                elements[i].textContent = 'Easy';
+                elements[i].classList.add('green-text');
+            } 
+	        else if (textContentLap.includes('3')) {
+                elements[i].textContent = 'Medium';
+                elements[i].classList.add('blue-text');
+            } 
+	        else if (textContentLap.includes('5')) {
+                elements[i].textContent = 'Hard';
+                elements[i].classList.add('orange-text');
+            }
+            else if (textContentLap.includes('7')) {
+                elements[i].textContent = 'Very Hard';
+                elements[i].classList.add('red-text');
+            }
+        }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var ratingContainer = document.querySelector('.rate-star-extend');
+        var ratingNumber = parseInt(ratingContainer.querySelector('avg-rating').textContent);
+
+        // Hide excess stars
+        var stars = ratingContainer.querySelectorAll('.star');
+         for (var i = ratingNumber; i < stars.length; i++) {
+            stars[i].style.display = 'none';
+         }
+
+    });
+
+	</script>
+
 {% endblock content %}

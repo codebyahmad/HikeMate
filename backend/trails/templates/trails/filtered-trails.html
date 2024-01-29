@@ -1,0 +1,181 @@
+{% extends "main.html" %}
+{% block content %}
+    <!-- Main Section -->
+    <!-- <main class="home"> -->
+        <!-- <section class="hero-section text-center">
+            <div class="container container--narrow">
+                <div class="hero-section__box">
+                    <h2>
+                        Find your dream <span>Trail</span>
+                    </h2>
+                </div>
+                <div class="hero-section__search">
+                    <form id="searchForm" class="form" action="{% url 'trails' %}" method="get">
+                        <div class="form__field">
+                            <label for="formInput#search">Search by city, park or trail name...</label>
+                            <input class="input input--text"
+                                   id="formInput#search"
+                                   type="text"
+                                   name="search_query"
+                                   value="{{ search_query }}"
+                                   placeholder="Search by city, park or trail name..." />
+                        </div>
+                        <input class="btn btn--sub btn--lg" type="submit" value="Search" />
+                    </form>
+                </div>
+            </div>
+        </section> -->
+
+    <div class="container-trail-info">
+		
+        <nav class="navigation-container">
+            <img src="/images/logo-black.svg" class="logo">
+            <ul id="navigation">
+                 <li>
+                     <a href="/index.html">Home</a>
+                     <a href="/trail.html">Recommendation</a>
+                     <a href="#">Trends</a>
+                     <a href="#">Regions</a>				
+                </li>
+            </ul>
+        </nav>		
+
+		<div class="container-trail">
+			<div class="rec-h1">
+                <h1>
+				Results:
+			    </h1>
+			</div>
+		<div class="card-container">
+			{%for trail in trails %}
+			<div class="card-trail">
+			    <img src="{{trail.featured_image}}" alt="" class="preview-img">
+			    <div class="card-content">
+			        <div class="rate-star">
+			            <p> <span class="difficulty">{{trail.difficulty}}</span></p>
+			            <div class="star-span">
+                        <h3><span>{{trail.avg_rating}}</span></h3>
+				        <img src="/images/star.svg" alt="Star" class="star">
+				        <img src="/images/star.svg" alt="Star" class="star">
+				        <img src="/images/star.svg" alt="Star" class="star">
+				        <img src="/images/star.svg" alt="Star" class="star">
+				        <img src="/images/star.svg" alt="Star" class="star">
+			        </div>
+			    </div>	
+			    <a href="{% url 'trails-r' trail.id %}?trail_name={{trail.name}}&num_of_trials=10" class="trail-name">
+                 <h3>{{trail.name}}</h3>
+                </a>
+			    <div class="location-card">
+			    <img src="/images/location.svg" alt="" class="location-img">
+			    <p>{{trail.region}}, {{trail.city}}</p>
+			    </div>
+			
+			    <div class="add-info">
+			    	<p>Length:</p>
+			    	<div class="length-info">{{trail.length}} m</div>
+			    </div>
+			    <div class="description-info"> {{trail.overview}}
+			    </div>
+			    <a href="/trail.html">
+			    </a>
+			</div>
+		</div>
+        {% endfor %}
+								
+    <footer>
+    
+        <div class="footer-content">
+            <div class="footer-socials">
+            <img src="/images/logo_2.svg" alt="">
+            <p>Where the Trail Leads, <br> Adventure Follows</p>
+    
+                <div class="socials-icons">
+                    <a href=""><img src="/images/linkedin.svg" alt=""></a>
+                    <a href=""><img src="/images/messenger.svg" alt=""></a>
+                    <a href=""><img src="/images/twitter.svg" alt=""></a>
+                    <a href=""><img src="/images/twoo.svg" alt=""></a>
+                </div>
+            </div>
+    
+            <div class="extra-footer-info">
+                <a href="#"><h1>Sitemap</h1></a>
+                <a href="#"><p>Home</p></a>
+                <a href="#"><p>Recommendation</p></a>
+                <a href="#"><p>Trends</p></a>
+                <a href="#"><p>Regions</p></a>
+            </div>
+    
+            <div class="extra-footer-info">
+                <a href="#"><h1>Regions</h1></a>
+                <a href="#"><p>Bern</p></a>
+                <a href="#"><p>Graubünden</p></a>
+                <a href="#"><p>Zürich</p></a>
+                <a href="#"><p class="all-regions">All Regions</p></a>
+            </div>
+    
+            <div class="search-footer-info">
+                <h1>Join Our Newsletter</h1>
+    
+                <form action="" class="search-bar-footer">
+                    <input type="text" placeholder="Your email address" name="q">
+                    <button type="submit">Subscribe</button>
+                </form>
+    
+                <p>* Will send you weekly updates for your better <br>tour packages.</p>
+        </div>
+    </div>
+    <div class="horizontal-line"></div>
+    
+    <p class="copy-right">Copyright @ HikeMate 2024. All Rights Reserved.</p>
+    </footer>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function(){
+			var navLinks = document.querySelectorAll('nav ul li a');
+
+	        navLinks.forEach(function (item){
+			    item.style.color = 'black';		
+	        })
+        })
+
+        // Change the difficulty level
+        var elements = document.getElementsByClassName('difficulty');
+
+        for (var i = 0; i < elements.length; i++) {
+            var textContentLap = elements[i].textContent;
+
+            if (textContentLap.includes('1')) {
+                elements[i].textContent = 'Easy';
+                elements[i].classList.add('green-text');
+            } 
+	        else if (textContentLap.includes('3')) {
+                elements[i].textContent = 'Medium';
+                elements[i].classList.add('blue-text');
+            } 
+	        else if (textContentLap.includes('5')) {
+                elements[i].textContent = 'Hard';
+                elements[i].classList.add('orange-text');
+            }
+            else if (textContentLap.includes('7')) {
+                elements[i].textContent = 'Very Hard';
+                elements[i].classList.add('red-text');
+            }
+        }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var ratingContainer = document.querySelector('.star-span');
+        var ratingNumber = parseInt(ratingContainer.querySelector('h3').textContent);
+
+        // Hide excess stars
+        var stars = ratingContainer.querySelectorAll('.star');
+         for (var i = ratingNumber; i < stars.length; i++) {
+            stars[i].style.display = 'none';
+         }
+
+    });
+
+	</script>
+        
+{% include "pagination.html" with queryset=trails custom_range=custom_range %}
+    <!-- </main> -->
+{% endblock content %}

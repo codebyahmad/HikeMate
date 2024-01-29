@@ -1,12 +1,12 @@
 import { useState } from "react";
 
+import MenuIcon from "@mui/icons-material/Menu";
+import { Box, Drawer, Typography } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Container from "@mui/material/Container";
-import { Box, Drawer, Typography } from "@mui/material";
 import Link from "@mui/material/Link";
-import MenuIcon from "@mui/icons-material/Menu";
-
-import logo from "../assets/main/logo.webp";
+import logo from "../assets/images/logo.svg";
+import star from "../assets/images/star.svg";
 import userAvatar from "../assets/main/user-avatar.svg";
 import { navItems } from "../data.js";
 
@@ -15,7 +15,22 @@ const Navbar = () => {
 
 	return (
 		<AppBar position="static" elevation={0} color="transparent">
-			<Container
+			<Container>
+				<nav class="navigation-container">
+			<img src={logo} class="logo"></img>
+			<ul id="navigation">
+				<li>
+					<a href="/index.html">Home</a>
+					<a href="/trail.html">Recommendation</a>
+					<a href="#">Trends</a>
+					<a href="#">Regions</a>				
+				</li>
+			</ul>
+			<button id="open-popup">Recommend <img src={star} alt=""></img></button>
+		</nav>
+
+		</Container>
+			{/* <Container
 				maxWidth="xl"
 				sx={{
 					px: 10,
@@ -209,7 +224,7 @@ const Navbar = () => {
 						</Typography>
 					</Box>
 				</Drawer>
-			</Container>
+			</Container> */}
 		</AppBar>
 	);
 };
