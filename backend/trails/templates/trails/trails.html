@@ -178,61 +178,21 @@
             </div>
     
             <div class="trendy-card-class">
-                    <div class="trendy-card">
-                        <img src="/images/trendy1.png" alt="">
-                        <div class="trendy-card-info">
-                            <h1>
-                                Grindelwald - <br> Glacier Canyon
-                            </h1>
-                            <div class="add-info">
-                                <h2>Length:</h2>
-                                <h2 class="length-info">6.0Km</h2>
-                            </div>
-                            <a href="">Explore More</a>
-                        </div>
-                    </div>
-        
-                    <div class="trendy-card">
-                        <img src="/images/trendy2.png" alt="">
-                        <div class="trendy-card-info">
-                            <h1>
-                                Harder Kulm <br> Loop Trail
-                            </h1>
-                            <div class="add-info">
-                                <h2>Length:</h2>
-                                <h2 class="length-info">6.0Km</h2>
-                            </div>
-                            <a href="">Explore More</a>
-                        </div>
-                    </div>		
-                    
-                    <div class="trendy-card">
-                        <img src="/images/trendy3.png" alt="">
-                        <div class="trendy-card-info">
-                            <h1>
-                                Northface Trail <br> Mürren 
-                            </h1>
-                            <div class="add-info">
-                                <h2>Length:</h2>
-                                <h2 class="length-info">6.0Km</h2>
-                            </div>
-                            <a href="">Explore More</a>
-                        </div>
-                    </div>	
-        
-                    <div class="trendy-card">
-                        <img src="/images/trendy4.png" alt="">
-                        <div class="trendy-card-info">
-                            <h1>
-                                Schynige Platte <br> Panorama Trail
-                            </h1>
-                            <div class="add-info">
-                                <h2>Length:</h2>
-                                <h2 class="length-info">6.0Km</h2>
-                            </div>
-                            <a href="">Explore More</a>
-                        </div>
-                    </div>	
+                {%for trail in trails %}
+				<div class="trendy-card">
+					<img src="{{trail.featured_image}}" alt="">
+					<div class="trendy-card-info">
+						<h1>
+							{{trail.name}}
+						</h1>
+						<div class="add-info">
+							<h2>Length:</h2>
+							<h2 class="length-info">{{trail.length}} m</h2>
+						</div>
+						<a href="{% url 'trails-r' trail.id %}?trail_name={{trail.name}}&num_of_trials=10">Explore More</a>
+					</div>
+				</div>
+				{% endfor %}
             </div>
             
                 
