@@ -29,6 +29,7 @@ def trails(request):
         unique_regions.add(region.region)
     context = {
         "trails": trails,
+        "rand_trails": rand_trails,
         # "search_query": search_query,
         # "custom_range": custom_range,
         "features": features,
