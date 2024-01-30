@@ -62,116 +62,7 @@
             </div>	
         </div>
 
-        <div class="container-trail">
-            <!-- <div class="rec-h1"><h1>
-                Recommended Routes:
-            </h1>
-            </div>
-            <div class="card-container">
-                
-                <div class="card">
-                    <img src="./images/trail1.png" alt="" class="preview-img">
-                    <div class="card-content">
-                        <div class="rate-star">
-                            <p> <span class="difficulty">Difficult</span></p>
-                            <div class="star-span">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                            </div>
-                        </div>	
-                        <h3>First - Bachalpsee</h3>
-                        <div class="location-card">
-                            <img src="./images/location.svg" alt="" class="location-img">
-                            <p>Grindelwald, Bern, Switzerland</p>
-                        </div>
-    
-                        <div class="add-info">
-                            <p>Length:</p>
-                            <div class="length-info">6.0 Km</div>
-                        </div>
-                        <div class="description-info">This hike leads over a wide, well-kept path along blooming alpine meadows to the Bachalpsee. 
-                            At the beginning of the hike there is a short but steep climb to the Gummihütte that has to be mastered.
-                        </div>
-                        <a href="/trail.html">
-                            <button  class="btn-read">
-                                Explore now
-                            </button> 
-                        </a>
-                    </div>
-                </div>
-    
-                <div class="card">
-                    <img src="./images/trail2.png" alt="" class="preview-img">
-                    <div class="card-content">
-                        <div class="rate-star">
-                            <p><span class="difficulty">Medium</span></p>
-                            <div class="star-span">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                            </div>
-                        </div>	
-                        <h3>Lake Oeschinen Loop</h3>
-                        <div class="location-card">
-                            <img src="/images/location.svg" alt="" class="location-img">
-                            <p>Grindelwald, Bern, Switzerland</p>
-                        </div>
-    
-                        <div class="add-info">
-                            <p>Length:</p>
-                            <div class="length-info">6.0 Km</div>
-                        </div>
-                        <div class="description-info">This hike leads over a wide, well-kept path along blooming alpine meadows to the Bachalpsee. 
-                            At the beginning of the hike there is a short but steep climb to the Gummihütte that has to be mastered.
-                        </div>
-                        <a href="/trail.html">
-                            <button  class="btn-read">
-                                Explore now
-                            </button> 
-                        </a>
-                    </div>
-                </div>
-    
-                <div class="card">
-                    <img src="./images/trail3.png" alt="" class="preview-img">
-                    <div class="card-content">
-                        <div class="rate-star">
-                            <p><span class="difficulty">Easy</span></p>
-                            <div class="star-span">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                                <img src="/images/star.svg" alt="">
-                            </div>
-                        </div>	
-                        <h3>Northface Trail</h3>
-                        <div class="location-card">
-                            <img src="/images/location.svg" alt="" class="location-img">
-                            <p>Grindelwald, Bern, Switzerland</p>
-                        </div>
-    
-                        <div class="add-info">
-                            <p>Length:</p>
-                            <div class="length-info">6.0 Km</div>
-                        </div>
-                        <div class="description-info">This hike leads over a wide, well-kept path along blooming alpine meadows to the Bachalpsee. 
-                            At the beginning of the hike there is a short but steep climb to the Gummihütte that has to be mastered.
-                        </div>
-                        <a href="/trail.html">
-                            <button  class="btn-read">
-                                Explore now
-                            </button> 
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-            
+        <div class="container-trail">     
             <div class="rec-h1"><h1>
                 Trendy Trails:
             </h1>
@@ -350,7 +241,7 @@
                         {% endfor %}
                     </ul>
 
-                    <button id="save-button" class="add-btn">+</button>
+                    <button id="save-button" class="add-btn" onclick="changeColorAndText()">+</button>
                 </div>
             </div>
             <div class="questionnaire" id="question2">
@@ -367,13 +258,6 @@
             </div>
 
             <div class="questionnaire" id="question3">
-                <!--Range for length-->
-                <!-- <label for="numberInput" class="form-label">Duration from (in minutes):</label>
-                <input type="number" class="form-control" id="numberInput" min="{{duration_min}}" max="{{duration_max}}" step="1" oninput="updateRangeValue(this.value)">
-                <br>
-                <label for="customRange3" class="form-label">Example range</label>
-                <input type="range" class="form-range" min="{{duration_min}}" max="{{duration_max}}" step="1" id="customRange3"> -->
-
                 <h2>Choose the duration</h2>       
                 <div class="number-inputs">
                     <div>
@@ -416,14 +300,6 @@
             </div>
 
             <div class="questionnaire" id="question5">
-                <!--Range for length-->
-                <!-- <label for="numberInput" class="form-label">Enter the length (in meter):</label>
-                <input type="number" class="form-control" id="lengthInput" min="{{length_min}}" max="{{length_max}}" step="1" oninput="updateRangeValue(this.value)">
-                <br>
-                <label for="customRange4" class="form-label">Example range</label>
-                <input type="range" class="form-range" min="{{length_min}}" max="{{length_max}}" step="1" id="customRange4"> -->
-
-
                 <h2>Choose the length</h2>       
                 <div class="number-inputs">
                     <div>
@@ -439,17 +315,6 @@
                     <button onclick="storeLengthValues()" class="add-btn"> + </button>
                   </div>
             </div>
-
-
-            
-            <!-- <div class="questionnaire" id="question5">             
-                <h2>How many trails want you to see</h2>                   
-                <input type="number" placeholder="Enter the number" min="0" id="num_of_trials"> 
-                
-                <button onclick="storeNumberOfTrails()" class="add-btn">
-                Add
-            </button>
-            </div> -->
 
             <div class="buttons-container" id="buttons-container">
                 <button onclick="showPrevious()">
@@ -538,9 +403,18 @@
             saveButton.addEventListener('click', function () {
                 var region = dropdown.id;
                 document.cookie = "region=" + region + '; expires expires=Thu, 01 Jan 2030 00:00:00 UTC; path=/';  
-                alert("cookie " + document.cookie + " is set"); 
             });
         });
+
+        var buttons = document.getElementsByClassName('add-btn');
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function () {
+                this.style.backgroundColor = 'green';
+                this.innerHTML = '&#10004;';
+                this.disabled = true;
+            });
+        }
     </script>
         {% include "pagination.html" with queryset=trails custom_range=custom_range %}
     <!-- </main> -->
