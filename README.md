@@ -1,3 +1,5 @@
+[![MasterHead](https://i.postimg.cc/85C5Ygt4/Hike-Logo.png)](https://rishavchanda.io)
+
 # HikeMate - A Trail Recommender System
 
 developed by M.Sc. Information Systems students from the University of Münster.
