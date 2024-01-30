@@ -19,7 +19,7 @@ Our Trail Recommender System relies on trail data scraped from [AllTrails](https
 - Alisher Nosirov ([@temptationofhiphop](https://github.com/temptationofhiphop))
 - Asad Mahmood Ahmad ([@codebyahmad](https://github.com/codebyahmad))
 - Jingxian He ([@Jing0985](https://github.com/Jing0985))
-- Nail Khazeev
+- Nail Khazeev ([@Naill23](https://github.com/Naill23))
 - Isroil Khudoyberdiev
 
 ## How to run it
