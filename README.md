@@ -1,4 +1,4 @@
-[![MasterHead](https://i.postimg.cc/85C5Ygt4/Hike-Logo.png)](https://rishavchanda.io)
+[![MasterHead](https://i.postimg.cc/85C5Ygt4/Hike-Logo.png)]
 
 # HikeMate - A Trail Recommender System
 
@@ -13,14 +13,6 @@ HikeMate is a trail recommender system that provides personalized trail recommen
 ## Data Collection and Cleaning
 
 Our Trail Recommender System relies on trail data scraped from [AllTrails](https://www.alltrails.com), specifically focusing on Switzerland. We've set up a standalone Python project, [alltrails](./alltrails/), which scrapes the AllTrails JSON API.
-
-## Authors
-
-- Alisher Nosirov ([@temptationofhiphop](https://github.com/temptationofhiphop))
-- Asad Mahmood Ahmad ([@codebyahmad](https://github.com/codebyahmad))
-- Jingxian He ([@Jing0985](https://github.com/Jing0985))
-- Nail Khazeev ([@Naill23](https://github.com/Naill23))
-- Isroil Khudoyberdiev
 
 ## How to run it
 
@@ -93,6 +85,7 @@ _To stop the virtual environment, type **deactivate** in the command prompt._
    python manage.py makemigrations
    python manage.py migrate
    ```
+
 ## Run the development server
 
 1. Start the development server:
@@ -113,5 +106,12 @@ To access the Django admin interface, you need to create a superuser account:
    ```
 2. Follow the prompts to enter a username, email, and password.
 3. Access the admin interface at http://127.0.0.1:8000/admin/ and log in using the superuser credentials.
+
+## Authors
+
+- Asad Mahmood Ahmad ([@codebyahmad](https://github.com/codebyahmad))
+- Alisher Nosirov ([@temptationofhiphop](https://github.com/temptationofhiphop))
+- Nail Khazeev ([@Naill23](https://github.com/Naill23))
+- Isroil Khudoyberdiev
 
 Enjoy using it! 🚵🏽‍♂️ 🌍
