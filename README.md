@@ -1,4 +1,4 @@
-[![MasterHead](https://i.postimg.cc/85C5Ygt4/Hike-Logo.png)]
+![MasterHead](https://i.postimg.cc/85C5Ygt4/Hike-Logo.png)
 
 # HikeMate - A Trail Recommender System
 
