@@ -24,48 +24,103 @@ Our Trail Recommender System relies on trail data scraped from [AllTrails](https
 
 ## How to run it
 
-To run the application locally on a computer, the user must in advance install various modules and extensions for Django and Virtual Environment
+# Django Project (Backend)
 
-First of all, the user needs to open a terminal or command line and use the cd command to go to the project folder
+Welcome to our Django project! This repository contains the source code for our web application built with Django.
 
-```bash
-cd HikeMate
-```
-After the user is in the project folder, it is necessary to install the required modules in order.
+# How to Setup the Development Environment
 
-First, let's start by installing Venv:
+## Prerequisites
 
-```bash
-pip install virtualenv
-```
+Before you begin, ensure that you have the following installed on your machine:
 
-Next, the user needs to run the Virtual Environment on his/her machine:
+- [Python](https://www.python.org/) (3.6 or higher)
+- [pip](https://pip.pypa.io/en/stable/) (Python package installer)
+- [PostgreSQL](https://www.postgresql.org/) (Database server)
 
-```bash
-.venv\Scripts\activate
-```
+## Setting up a Virtual Environment
 
-The last two things that the user needs to do are go to the backend folder and run the application 
+1. Install Virtual Environment
 
-```bash
-cd .\backend\
-```
+   ```bash
+   pip install virtualenv
+   ```
 
-```bash
-python .\manage.py runserver
-```
+2. Create Virtual Environment
+   ```bash
+   python -m virtualenv venv
+   ```
+3. Activate Virutal Environment
 
-After that, the user needs to start the server, this can be done this way:
+   On Windows:
 
-Use the link in the browser
-```bash
-HTTP://127.0.0.1:8000/
-```
+   ```bash
+   venv\Scripts\activate
+   ```
 
-Further, to use the filtering the user needs to click on the button on the top right and go through a small questionnaire, which will create a list of suitable trails.
+   On Mac:
 
-Further, clicking on the name of the desired trail will reveal detailed information about it, and below will appear the recommendation system, which is associated with the viewed trail 
-## (Note that the number of clicks on the trails and the appearance of corresponding recommendations to them is unlimited).
+   ```bash
+   source venv/bin/activate
+   ```
+
+_To stop the virtual environment, type **deactivate** in the command prompt._
+
+4. Navigate to Project Folder
+
+   ```bash
+   cd backend
+   ```
+
+5. Install dependencies
+   ```bash
+   pip install requirements.txt
+   ```
+
+## Setting up Database
+
+1. Ensure that PostgreSQL is installed and running.
+2. Create a PostgreSQL database for your Django project.
+3. Update the DATABASE setting in `core/settings.py`:
+   `bash
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'your_database_name',
+            'USER': 'your_database_user',
+            'PASSWORD': 'your_database_password',
+            'HOST': 'localhost',
+            'PORT': '5432',
+        }
+    }
+    `
+   Replace **your_database_name**, **your_database_user**, and **your_database_password** with your actual database information.
+
+4. Make migrations and apply them:
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+
+## Run the development server
+
+1. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
+2. Open your web browser and navigate to http://127.0.0.1:8000/ to view the application.
+
+_To stop the development server, press Ctrl + C in the command prompt._
+
+## Creating a Superuser (Admin)
+
+To access the Django admin interface, you need to create a superuser account:
+
+1. Run the following command:
+   ```bash
+   python manage.py createsuperuser
+   ```
+2. Follow the prompts to enter a username, email, and password.
+3. Access the admin interface at http://127.0.0.1:8000/admin/ and log in using the superuser credentials.
 
 Enjoy using it! 🚵🏽‍♂️ 🌍
-
