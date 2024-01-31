@@ -24,14 +24,6 @@ Our Trail Recommender System relies on trail data scraped from [AllTrails](https
 
 ## How to run it
 
-# Django Project (Backend)
-
-Welcome to our Django project! This repository contains the source code for our web application built with Django.
-
-# How to Setup the Development Environment
-
-## Prerequisites
-
 Before you begin, ensure that you have the following installed on your machine:
 
 - [Python](https://www.python.org/) (3.6 or higher)
@@ -76,7 +68,7 @@ _To stop the virtual environment, type **deactivate** in the command prompt._
    ```bash
    pip install requirements.txt
    ```
-
+   
 ## Setting up Database
 
 1. Ensure that PostgreSQL is installed and running.
@@ -101,7 +93,6 @@ _To stop the virtual environment, type **deactivate** in the command prompt._
    python manage.py makemigrations
    python manage.py migrate
    ```
-
 ## Run the development server
 
 1. Start the development server:
