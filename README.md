@@ -74,7 +74,7 @@ _To stop the virtual environment, type **deactivate** in the command prompt._
 1. Ensure that PostgreSQL is installed and running.
 2. Create a PostgreSQL database for your Django project.
 3. Update the DATABASE setting in `core/settings.py`:
-   `bash
+   ```bash
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -85,7 +85,7 @@ _To stop the virtual environment, type **deactivate** in the command prompt._
             'PORT': '5432',
         }
     }
-    `
+    ```
    Replace **your_database_name**, **your_database_user**, and **your_database_password** with your actual database information.
 
 4. Make migrations and apply them:
