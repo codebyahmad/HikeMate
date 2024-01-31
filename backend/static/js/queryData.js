@@ -4,8 +4,6 @@ function storeDurationValues(){
 
     document.cookie = "duration_min=" + duration_min + "; expires=Fri, 01 Jan 9999 00:00:00 GMT";
     document.cookie = "duration_max=" + duration_max + "; expires=Fri, 01 Jan 9999 00:00:00 GMT";
-
-    alert('Values are stored');
 }
 
 
@@ -15,14 +13,10 @@ function storeLengthValues(){
 
 	document.cookie = "length_min=" + length_min + "; expires=Fri, 01 Jan 9999 00:00:00 GMT";
 	document.cookie = "length_max=" + length_max + "; expires=Fri, 01 Jan 9999 00:00:00 GMT";
-
-	alert('Values are stored');
 }
 
 function storeNumberOfTrails(){
 	var num_of_trials = document.getElementById('num_of_trials').value;
 
 	document.cookie = "num_of_trials=" + num_of_trials + "; expires=Fri, 01 Jan 9999 00:00:00 GMT";
-
-	alert('Values are stored');
 }

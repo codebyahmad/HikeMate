@@ -68,7 +68,7 @@ _To stop the virtual environment, type **deactivate** in the command prompt._
    ```bash
    pip install requirements.txt
    ```
-
+   
 ## Setting up Database
 
 1. Ensure that PostgreSQL is installed and running.
@@ -93,7 +93,6 @@ _To stop the virtual environment, type **deactivate** in the command prompt._
    python manage.py makemigrations
    python manage.py migrate
    ```
-
 ## Run the development server
 
 1. Start the development server:

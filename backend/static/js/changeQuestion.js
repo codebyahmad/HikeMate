@@ -32,3 +32,9 @@ function showPrevious() {
       }
   }
 }
+
+function changeAddBtn(){
+  var addBtn = document.getElementById('save-btn');
+
+  addBtn.style.backgroundColor = 'green';
+}
